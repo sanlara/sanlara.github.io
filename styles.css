@@ -1,0 +1,538 @@
+/*Home*/
+
+html, body {
+    margin: 0;
+    font-family:'Poppins', sans-serif;
+}
+
+br { 
+   display: none; 
+}
+
+.menu-open br{ 
+    display: block; 
+}
+
+.navigation {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(118.15deg, #FAAB2A 0%, #FEC136 87.77%);
+    position: absolute;
+    right: 0;
+    top: -100%;
+    transition: top 350ms ease-in-out;
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+}
+
+.navigation li{
+    list-style-type: none;
+}
+
+.menu{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 7%;
+    right: 8%;
+    z-index: 3;
+    cursor: pointer;
+    fill: #ffffff;
+}    
+
+.menu:hover{
+    fill: #FAAB2A;
+}    
+
+.equis{
+    display: none;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 7%;
+    right: 8%;
+    z-index: 3;
+    cursor: pointer;
+    fill: #13161B;
+}    
+
+.menu-open .navigation {
+    top: 0;
+}
+
+.menu-open .menu{
+    display: none;
+}
+
+.menu-open .equis{ 
+    display: block; 
+}
+
+.menu-open .logo{ 
+    color: #13161B; 
+    font-weight: 800;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    position: absolute;
+    left: 46.5%;
+    top: 7%;
+    z-index: 3;
+} 
+
+.texto-menu{
+    font-size: 40px;
+    font-weight: 800;
+    color: #13161B;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.texto-menu:hover{
+    text-decoration: underline;
+    font-size: 80px;
+    font-weight: 800;
+    color: #13161B;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.texto-menu2{
+    font-size: 14px;
+    font-weight: 500;
+    color: #13161B;
+    text-align: center;
+    margin-bottom: 15px;
+    position: absolute;
+    left: 22%;
+    top: 75%;
+    z-index: 3;
+    display: none;
+    transition: top 350ms ease-in-out;
+}
+
+.menu-open .texto-menu2{ 
+    display: block; 
+}
+
+.email-link{ 
+    font-size: 14px;
+    font-weight: 500;
+    color: #13161B;
+    text-align: right;
+}
+
+.email-link:hover{ 
+    font-size: 14px;
+    font-weight: 500;
+    color: #13161B;
+    text-align: right;
+    text-decoration: underline;
+}
+
+.degrade::before {
+    content: '';
+    display: block;
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+.wrapper {
+    max-width: 90%;
+    position: absolute;
+    left: 8%;
+    top: 70%;
+    z-index: 2;
+} 
+
+.marca{
+    font-size: 20px;
+    font-weight: 300;
+    position: relative;
+    left: 0;
+    top: 4px;
+    z-index: 2;
+}
+
+.marca::before {
+    background: currentColor;
+    content: '';
+    display: inline-block;
+    height: 2px;
+    width: 60px;
+    margin: 0 .5em 0 0;
+    vertical-align: middle;
+}
+
+.titulo-proyecto{
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+.ver-proyecto{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.mockup-proyecto{
+    width: 482px;
+    height: 344px;
+    position: absolute;
+    right: 170px;
+    top: 52%;
+    z-index: 2;
+    display: none;
+}
+
+.flecha-ver-proyecto{
+    width: 19px;
+    height: 13px;
+    position: absolute;
+    left: 30%;
+    top: 86%;
+    z-index: 3;
+    animation: slide1 1.5s ease-in-out infinite;
+    margin-left: 9px;
+}
+
+@keyframes slide1 {
+    0%,
+    100% {
+      transform: translate(0, 0);
+    }
+  
+    50% {
+      transform: translate(10px, 0);
+    }
+  }
+
+.logo{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    position: absolute;
+    left: 38%;
+    top: 7%;
+    z-index: 3;
+} 
+
+.logo:hover{
+    color: #FFBA30;
+    text-decoration: none;
+} 
+
+.menu-open .logo{ 
+    position: absolute;
+    left: 38%;
+    top: 7%;
+    z-index: 3;
+} 
+
+.bienvenida{
+    background: #13161B;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper-bienvenida{
+    max-width: 80%;
+}  
+
+.titulo-principal{
+    font-size: 50px;
+    font-weight: 800;
+    color: #FAAB2A;
+    text-align: center;
+    margin-bottom: 25px;
+    letter-spacing: 1.2px;
+    background:  #13161B;
+    position: relative;
+    animation: text 2s 1;
+} 
+
+.descripcion-ric{
+    font-size: 16px;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 0.5px;
+    line-height: 170%;
+}
+
+@keyframes text {
+    0%{
+      color: #FAAB2A;
+      margin-bottom: -140px;
+    }
+    30%{
+      letter-spacing: 5px;
+      margin-bottom: -140px;
+    }
+    85%{
+      letter-spacing: 1px;
+      margin-bottom: -140px;
+    }
+}
+
+.DescripcionRic2{
+    font-size: 17px;
+    font-weight: 600;
+    color: #FAAB2A;
+    text-align: center;
+    letter-spacing: 0.5px;
+    line-height: 170%;
+}
+
+.middle{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 1;
+}
+
+.mouse{
+    width: 26px;
+    height: 39px;
+    border: 3px solid #FAAB2A;
+    border-radius: 80px;
+}
+
+.mouse::before{
+    content: "";
+    width: 7px;
+    height: 7px;
+    position: absolute;
+    top: 10px;
+    background: #FAAB2A;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    opacity: 1;
+    animation: mouse 1.2s infinite;
+}
+
+@keyframes mouse {
+    from{
+      opacity: 1;
+      top: 9px;
+    }
+    to{
+      opacity: 0;
+      top: 30px;
+    }
+}
+
+.LaPlatea{
+    background: url(..//2.0/img/petitprincep.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.LaPlatea::before {
+    background:  linear-gradient(360deg, #5801C7 0.57%, rgba(76, 1, 171, 0.5) 30.43%, rgba(66, 1, 149, 0) 54.42%);
+}
+
+.LaPlatea .marca {
+    color: #FFD794;
+}
+
+.LaPlatea .titulo-proyecto{
+    color: #ffffff;
+}
+
+.LaPlatea .ver-proyecto{
+    color: #ffffff;
+}
+
+.LaPlatea .flecha-ver-proyecto{
+    fill: #ffffff;
+}
+
+.DearestRobot{
+    background: url(../2.0/img/robot.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.DearestRobot::before{
+    background: linear-gradient(360deg, #FEC6D9 0.57%, rgba(254, 198, 217, 0.5) 30.43%, rgba(254, 198, 217, 0) 54.42%);
+}
+
+.DearestRobot .marca {
+    color: #6A18E3;
+}
+
+.DearestRobot .titulo-proyecto{
+    color: #6A18E3;
+}
+
+.DearestRobot .ver-proyecto{
+    color: #6A18E3;
+}
+
+.Linea-DearestRobot {
+    display: block;
+    height: 1px;
+    width: 60px;
+    border: 0;
+    border-top: 2px solid #6A18E3;
+    margin: 1em 0;
+    padding: 0;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 3;
+}
+
+.DearestRobot .flecha-ver-proyecto{
+    fill: #6A18E3;
+}
+
+@media only screen and (min-width: 1024px) {
+
+a:hover{
+    text-decoration: none;
+}
+
+br { 
+    display: block; 
+}
+
+.menu{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 7%;
+    right: 8%;
+    z-index: 3;
+    fill: #ffffff;
+}
+
+.equis{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 7%;
+    right: 8%;
+    z-index: 3;
+    fill: #13161B;
+}    
+
+.menu-open .logo{ 
+    position: absolute;
+    left: 46.5%;
+    top: 7%;
+    z-index: 3;
+} 
+
+.texto-menu{
+    font-size: 80px;
+    margin-bottom: 25px;
+}
+
+.texto-menu:hover{
+    font-size: 80px;
+    margin-bottom: 25px;
+}
+
+.texto-menu2{
+    text-align: right;
+    margin-bottom: 15px;
+    position: absolute;
+    right: 8%;
+    top: 16%;
+    z-index: 3;
+    transition: top 350ms ease-in-out;
+}
+
+.wrapper {
+    max-width: 800px;
+    position: absolute;
+    left: 180px;
+    top: 60%;
+} 
+
+.marca{
+    font-size: 22px;
+}
+
+.titulo-proyecto{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+.ver-proyecto{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.mockup-proyecto{
+    display: block;
+}
+
+.flecha-ver-proyecto{
+    width: 21px;
+    height: 15x;
+    position: absolute;
+    left: 100px;
+    top: 89%;
+}
+
+.logo{
+    position: absolute;
+    left: 46.5%;
+    top: 7%;
+    z-index: 3;
+} 
+
+.titulo-principal{
+    font-size: 80px;
+} 
+
+.descripcion-ric{
+    font-size: 18px;
+}
+
+@keyframes text {
+    0%{
+      color: #FAAB2A;
+      margin-bottom: -60px;
+    }
+    30%{
+      letter-spacing: 10px;
+      margin-bottom: -60px;
+    }
+    85%{
+      letter-spacing: 1.2px;
+      margin-bottom: -60px;
+    }
+}
+
+.mouse{
+    width: 28px;
+    height: 42px;
+}
+
+}

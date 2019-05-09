@@ -1,0 +1,164 @@
+/*Pagina de La Platea*/
+
+html, body {
+    margin: 0;
+    font-family:'Poppins', sans-serif;
+    background: #FAAB2A;
+    overflow-x: hidden;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.navigation {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(118.15deg, #FAAB2A 0%, #FEC136 87.77%);
+    position: absolute;
+    right: 0;
+    top: -100%;
+    transition: top 350ms ease-in-out;
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+}
+
+.navigation li{
+    list-style-type: none;
+}
+
+.menu{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 7%;
+    right: 8%;
+    z-index: 3;
+    cursor: pointer;
+    fill: #13161B;
+}
+
+.menu:hover{
+    fill: #FAAB2A;
+} 
+
+.equis{
+    display: none;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 7%;
+    right: 8%;
+    z-index: 3;
+    cursor: pointer;
+    fill: #13161B;;
+}    
+
+.menu-open .navigation {
+    top: 0;
+}
+
+.menu-open .menu{
+    display: none;
+}
+
+.menu-open .equis{ 
+    display: block; 
+}
+
+.menu-open .logo{ 
+    color: #13161B; 
+    font-weight: 800;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    position: absolute;
+    left: 46.5%;
+    top: 7%;
+    z-index: 3;
+} 
+
+.texto-menu{
+    font-size: 40px;
+    font-weight: 800;
+    color: #13161B;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.texto-menu:hover{
+    text-decoration: underline;
+    font-size: 40px;
+    font-weight: 800;
+    color: #13161B;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.texto-menu2{
+    font-size: 14px;
+    font-weight: 500;
+    color: #13161B;
+    text-align: center;
+    margin-bottom: 15px;
+    position: absolute;
+    left: 22%;
+    top: 75%;
+    z-index: 3;
+    display: none;
+    transition: top 350ms ease-in-out;
+}
+
+.menu-open .texto-menu2{ 
+    display: block; 
+}
+
+.email-link{ 
+    font-size: 14px;
+    font-weight: 500;
+    color: #13161B;
+    text-align: right;
+}
+
+.email-link:hover{ 
+    font-size: 14px;
+    font-weight: 500;
+    color: #13161B;
+    text-align: right;
+    text-decoration: underline;
+}
+
+.logo{
+    color: #13161B;
+    font-size: 16px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    position: absolute;
+    left: 37%;
+    top: 7%;
+    z-index: 3;
+} 
+
+.menu-open .logo{ 
+    position: absolute;
+    left: 37%;
+    top: 7%;
+    z-index: 3;
+} 
+
+.acerca-de-mi{
+    width: 50%;
+    position: relative;
+    top: 20%;
+} 
+
+.ricardo{
+    width: 168px;
+} 
