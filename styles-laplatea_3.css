@@ -3,7 +3,6 @@
 html, body {
     margin: 0;
     font-family:'Poppins', sans-serif;
-    background: #FAAB2A;
     overflow-x: hidden;
 }
 
@@ -153,16 +152,6 @@ a:hover{
     z-index: 3;
 } 
 
-.acerca-de-mi{
-    width: 50%;
-    position: relative;
-    top: 20%;
-} 
-
-.ricardo{
-    width: 168px;
-} 
-
 h1{
     font-size: 35px;
     font-weight: 800;
@@ -173,5 +162,31 @@ p{
     font-size: 18px;
     font-weight: 400;
     color: #13161B;
+    margin-bottom: 35px;
     line-height: 130%;
 }
+
+.hero-about{
+    background: #FAAB2A;;
+    height: 1500px;
+    width: 100%;
+    position: relative;
+}
+
+.about1{
+    width: 80%;
+    margin: 0 auto 60px auto;
+    position: relative;
+    top: 10%;
+} 
+
+.about2{
+    width: 80%;
+    margin: 0 auto 60px auto;
+    position: relative;
+    top: 10%;
+} 
+
+.ricardo{
+    width: 168px;
+} 
