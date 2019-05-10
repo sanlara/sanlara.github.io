@@ -167,6 +167,15 @@ p{
     line-height: 140%;
 }
 
+.p3{
+    font-size: 15px;
+    font-weight: 400;
+    color: #13161B;
+    margin-bottom: 25px;
+    line-height: 140%;
+    text-decoration: underline;
+}
+
 .hero-about{
     background: #FAAB2A;;
     height: 1500px;
