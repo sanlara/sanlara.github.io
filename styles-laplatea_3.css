@@ -162,3 +162,9 @@ a:hover{
 .ricardo{
     width: 168px;
 } 
+
+h1{
+    font-size: 35px;
+    font-weight: 800;
+    color: #fff
+}
