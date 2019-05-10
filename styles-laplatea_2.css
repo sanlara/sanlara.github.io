@@ -193,7 +193,7 @@ a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(..//2.0/img/maglari2_mobile.png);
+    background-image: url(img/maglari2_mobile.png);
     background-position: center;
     background-size: cover;
     position: relative;
