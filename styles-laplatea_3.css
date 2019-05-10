@@ -155,36 +155,38 @@ a:hover{
 h1{
     font-size: 35px;
     font-weight: 800;
-    color: #fff;
+    color: #13161B;
+    margin-bottom: 25px;
 }
 
 p{
     font-size: 18px;
     font-weight: 400;
     color: #13161B;
-    margin-bottom: 35px;
-    line-height: 130%;
+    margin-bottom: 25px;
+    line-height: 140%;
 }
 
 .hero-about{
     background: #FAAB2A;;
     height: 1500px;
     width: 100%;
-    position: relative;
+    
 }
 
 .about1{
     width: 80%;
-    margin: 0 auto 60px auto;
+    margin: 0 auto 30px auto;
     position: relative;
-    top: 10%;
+    top: 8%;
+    text-align: center;
 } 
 
 .about2{
     width: 80%;
     margin: 0 auto 60px auto;
     position: relative;
-    top: 10%;
+    top: 8%;
 } 
 
 .ricardo{
