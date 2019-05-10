@@ -338,7 +338,7 @@ br {
 }
 
 .LaPlatea{
-    background: url(img/petitprincep.jpg);
+    background: url(/img/petitprincep.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -367,7 +367,7 @@ br {
 }
 
 .DearestRobot{
-    background: url(img/robot.png);
+    background: url(/img/robot.png);
     background-size: cover;
     background-position: center;
     height: 100vh;
