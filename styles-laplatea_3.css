@@ -169,9 +169,9 @@ h2{
 p{
     font-size: 18px;
     font-weight: 400;
-    color: #13161B;
     margin-bottom: 25px;
     line-height: 140%;
+    color: #13161B;
 }
 
 .p2{
@@ -179,7 +179,6 @@ p{
     font-weight: 400;
     margin-bottom: 25px;
     line-height: 140%;
-    color: #fff;
 }
 
 .p3{
@@ -187,6 +186,50 @@ p{
     font-weight: 400;
     margin-bottom: 25px;
     line-height: 140%;
+}
+
+.p4{
+    font-size: 90px;
+    font-weight: 800;
+    line-height: 140%;
+}
+
+.p5{
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 140%;
+    
+}
+
+.razones-1 .p2{
+    color: #fff;
+}
+
+.razones-1 .p3{
+    color: #fff;
+}
+
+.razones-1 .p4{
+    -webkit-text-stroke: 3px rgb(255, 255, 255);
+    paint-order: stroke fill;
+}
+
+.razones-1 .p5{
+    color: #FAAB2A;
+}
+
+.razones-2 .p4{
+    -webkit-text-stroke: 3px rgb(19, 22, 27);
+    paint-order: stroke fill;
+    fill: none;
+}
+
+.razones-2 .p2{
+    color: #13161B;
+}
+
+.razones-2 .p5{
+    color: #FAAB2A;
 }
 
 .hero-about .p3{
@@ -221,13 +264,17 @@ p{
 
 .razones-1{
     background: #13161B;
-    height: 700px;
+    height: 950px;
     width: 100%;
 }
 
-.razones-1 .p3{
-    color: #fff;
+.razones-2{
+    background: #fff;
+    height: 950px;
+    width: 100%;
 }
+
+
 
 .wrapper-razones{
     width: 80%;
@@ -236,10 +283,41 @@ p{
     top: 10%;
 } 
 
+.wrapper-razones2{
+    width: 80%;
+    margin: 0 auto 0 auto;
+    position: relative;
+    top: 10%;
+    text-align: center;
+} 
+
+.wrapper-razones2 .p4{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+.wrapper-razones2 .p5{
+    position: relative;
+    top: -105px;
+    left: 30px;
+    z-index: 2;
+}
+
+.wrapper-razones3{
+    width: 80%;
+    margin: 0 auto 0 auto;
+    position: relative;
+    top: -2%;
+    text-align: center;
+} 
+
 .gif{
     width:100%;
     height:0;
     padding-bottom:100%;
-    position:relative;
+    position: relative;
+    margin-bottom: 30px;
 }
 
