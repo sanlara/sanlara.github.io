@@ -195,10 +195,12 @@ p{
 }
 
 .p5{
-    font-size: 50px;
-    font-weight: 800;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 15px;
     line-height: 140%;
-    
+    color: #fff;
+    text-align: center; 
 }
 
 .razones-1 .p2{
@@ -214,22 +216,35 @@ p{
     paint-order: stroke fill;
 }
 
-.razones-1 .p5{
-    color: #FAAB2A;
+.razones-2 .p2{
+    color: #13161B;
 }
 
 .razones-2 .p4{
     -webkit-text-stroke: 3px rgb(19, 22, 27);
     paint-order: stroke fill;
-    fill: none;
+    color: #fff
 }
 
-.razones-2 .p2{
-    color: #13161B;
+.razones-3 .p4{
+    -webkit-text-stroke: 3px rgb(19, 22, 27);
+    paint-order: stroke fill;
+    color: #FAAB2A
 }
 
-.razones-2 .p5{
-    color: #FAAB2A;
+.razones-4 .p2{
+    color: #fff;
+}
+
+.razones-4 .p4{
+    -webkit-text-stroke: 3px rgb(255, 255, 255);
+    paint-order: stroke fill;
+}
+
+.razones-5 .p4{
+    -webkit-text-stroke: 3px rgb(19, 22, 27);
+    paint-order: stroke fill;
+    color: #fff
 }
 
 .hero-about .p3{
@@ -238,7 +253,7 @@ p{
 }
 
 .hero-about{
-    background: #FAAB2A;;
+    background: #FAAB2A;
     height: 1300px;
     width: 100%;
 }
@@ -274,42 +289,64 @@ p{
     width: 100%;
 }
 
+.razones-3{
+    background: #FAAB2A;
+    height: 950px;
+    width: 100%;
+}
 
+.razones-4{
+    background: #13161B;
+    height: 950px;
+    width: 100%;
+}
 
-.wrapper-razones{
+.razones-5{
+    background: #fff;
+    height: 950px;
+    width: 100%;
+}
+
+.tools{
+    background: #13161B;
+    height: 950px;
+    width: 100%;
+}
+
+.wrapper{
     width: 80%;
     margin: 0 auto 40px auto;
     position: relative;
     top: 10%;
 } 
 
-.wrapper-razones2{
+.wrapper2{
     width: 80%;
     margin: 0 auto 0 auto;
     position: relative;
-    top: 10%;
+    top: 5%;
     text-align: center;
 } 
 
-.wrapper-razones2 .p4{
+.wrapper2 .p4{
     position: relative;
     top: 0px;
     left: 0px;
     z-index: 1;
 }
 
-.wrapper-razones2 .p5{
+.wrapper2 .p5{
     position: relative;
     top: -105px;
     left: 30px;
     z-index: 2;
 }
 
-.wrapper-razones3{
+.wrapper3{
     width: 80%;
     margin: 0 auto 0 auto;
     position: relative;
-    top: -2%;
+    top: 2%;
     text-align: center;
 } 
 
@@ -321,3 +358,14 @@ p{
     margin-bottom: 30px;
 }
 
+.imagen-tools{
+    width: 286px;
+    height: 551px;
+    background-image: url(img/tools_mobile.png);
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto 80px auto;
+    position: relative;
+    top: 12%;
+    text-align: center;
+}
