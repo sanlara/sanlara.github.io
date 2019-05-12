@@ -42,10 +42,6 @@ a:hover{
     fill: #13161B;
 }
 
-.menu:hover{
-    fill: #FAAB2A;
-} 
-
 .equis{
     display: none;
     height: 20px;
@@ -246,7 +242,7 @@ p{
 }
 
 .hero-about{
-    background: #FAAB2A;
+    background: linear-gradient(108.15deg, #FAAB2A 0%, #FEC136 78.7%);
     height: 1300px;
     width: 100%;
 }
@@ -413,10 +409,6 @@ p{
         cursor: pointer;
         fill: #13161B;
     }
-    
-    .menu:hover{
-        fill: #FAAB2A;
-    } 
     
     .equis{
         display: none;
@@ -614,31 +606,23 @@ p{
     }
     
     .hero-about{
-        background: linear-gradient(108.15deg, #FAAB2A 0%, #FEC136 78.7%);;
+        background: linear-gradient(108.15deg, #FAAB2A 0%, #FEC136 78.7%);
         height: 100vh;
         width: 100%;
     }
     
     .about1{
-        width: 30%;
-        position: relative;
-        top: 35%;
-        left: 5%;
-        text-align: center;
-        margin: 0px;
-        padding: 0px;
+        width: 45%;
+        position: absolute;
+        left: 50%;
+        top: 53%;
+        transform: translate(-50%, -50%);
+        text-align: left;
     } 
-    
-    .about2{
-        width: 40%;
-        position: relative;
-        margin: 0px;
-        top: -12%;
-        left: 45%;
-    } 
-    
+        
     .ricardo{
-        width: 250px;
+        width: 100px;
+        margin-bottom: 25px;
     } 
     
     .razones-1{
