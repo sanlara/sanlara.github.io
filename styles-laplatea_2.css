@@ -630,7 +630,7 @@ p{
 }  
 
 .DearestRobot1{
-    background: url(../2.0/img/robot.png);
+    background: url(img/robot.png);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -882,7 +882,7 @@ p{
         display: flex;
         align-items: center;
         justify-content: center;
-        background-image: url(../2.0/img/maglari2.png);
+        background-image: url(img/maglari2.png);
         background-size: cover;
         position: relative;
     }
@@ -1225,7 +1225,7 @@ p{
     }  
     
     .DearestRobot1{
-        background: url(../2.0/img/robot.png);
+        background: url(img/robot.png);
         background-size: cover;
         background-repeat: no-repeat;
         height: 100vh;
