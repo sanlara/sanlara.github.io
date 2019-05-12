@@ -513,10 +513,10 @@ p{
     }
     
     h2{
-        font-size: 20px;
-        font-weight: 600;
+        font-size: 35px;
+        font-weight: 800;
         color: #FAAB2A;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
     
     p{
@@ -537,8 +537,8 @@ p{
     .p3{
         font-size: 15px;
         font-weight: 400;
-        margin-bottom: 25px;
         line-height: 140%;
+        margin-bottom: 25px;
     }
     
     .p4{
@@ -675,11 +675,12 @@ p{
     } 
 
     .wrapper-why{
-        width: 40%;
-        margin: 0;
+        width: 55%;
         position: absolute;
         top: 10%;
-        left: 13%;
+        left: 20%;
+        transform: translate(-20%, 0%);
+        text-align: left;
     } 
     
     .wrapper2{
@@ -707,7 +708,7 @@ p{
     
     .wrapper3{
         width: 500px;
-        margin: 0;
+        margin: 0 30px 0 0;
         position: absolute;
         top: 41%;
         left: 20%;
@@ -724,11 +725,7 @@ p{
     } 
     
     .gif{
-        width: 100%;
-        height:0;
-        padding-bottom:100%;
-        position: relative;
-        margin-bottom: 30px;
+        width: 90%;
     }
     
     .imagen-tools{

@@ -253,9 +253,10 @@ a:hover{
 
 .contenido-general-1{
     background: #5801C7;
-    height: 6900px;
+    height: 6800px;
     width: 100%;
     position: relative;
+    z-index: 1;
 }
 
 .wrapper-contenido{
@@ -288,11 +289,8 @@ a:hover{
 .laptop-LaPlatea2{
     width: 349px;
     height: 248px;
-    position: relative;
-    top: 50px;
-    left: 3%;
-    z-index: 2;
-    margin-bottom: 100px;
+    margin: 0 auto 100px auto;
+    text-align: center;
 }
 
 .roles{
@@ -326,15 +324,12 @@ a:hover{
 }
 
 .wrapper-elementos3{
-    max-width: 100%;
+    width: 100%;
     position: relative;
     top: 0%;
-    left: 1%;
+    left: 0%;
     display: block;
     margin: 0;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
 }
 
 .fotos-equipo{
@@ -474,7 +469,7 @@ p{
     left: 0%;
     z-index: 2;
     margin-bottom: 60px;
-    background-image: url(..//2.0/img/publico.png);
+    background-image: url(img/publico.png);
     background-size: cover;
     background-position: center;
 }
@@ -793,6 +788,10 @@ p{
     .texto-menu{
         font-size: 80px;
     }
+
+    .texto-menu:hover{
+        font-size: 80px;
+    }
      
     .texto-menu2{
         text-align: right;
@@ -913,45 +912,42 @@ p{
     }
     
     .contenido-general-1{
-        height: 5800px;
+        height: 5500px;
     }
     
     .wrapper-contenido{
-        max-width: 764px;
-        position: relative;
-        top: 0%;
-        left: 25%;
-        z-index: 2;
-        margin-bottom: 60px;
+        width: 712px;
+        margin: 0 auto 50px auto;
+        position: initial;
     } 
     
     .wrapper-contenido2{
-        max-width: 764px;
+        width: 712px;
+        margin: 0 auto 50px auto;
         position: relative;
-        top: -160px;
-        left: 25%;
-        z-index: 2;
-        margin-bottom: 60px;
+        top: 5%;
+        left: 0%
     } 
 
     .wrapper-contenido-bench{
         max-width: 764px;
         position: relative;
-        top: -1%;
-        left: 25%;
-        z-index: 2;
-        margin-bottom: 100px;
+        top: 5%;
+        left: 0%;
+        margin: 0 auto;
     } 
     
     .laptop-LaPlatea2{
         width: 990px;
         height: 679px;
-        position: relative;
-        top: 0px;
-        left: 13%;
-        z-index: 2;
-        margin-bottom: 80px;
+        margin: 0 auto;
     }
+
+    .wrapper-imagenes{
+        width: 990px;
+        margin: 0 auto 50px auto;
+        position: initial;
+    } 
     
     .roles{
         width: 224px;
@@ -972,10 +968,7 @@ p{
     }
     
     .wrapper-elementos3{
-        max-width: 764px;
-        position: relative;
-        top: 0%;
-        left: 2%;
+        width: 712px;
         display: flex;
     }
     
@@ -1023,13 +1016,10 @@ p{
     }
     
     .doblediamante{
-        width: 950px;
-        height: 410px;
-        position: relative;
-        top: 0px;
-        left: 18%;
-        z-index: 2;
-        margin-bottom: 100px;
+        object-fit: cover;
+        width: 990px;
+        height: 440px;
+        position: initial;
     }
     
     .wrapper-iconosresearch{
@@ -1049,27 +1039,24 @@ p{
     }
     
     .publico{
-        width: 1101px;
+        width: 990px;
         height: 597px;
-        background-image: url(..//2.0/img/publico.png);
+        background-image: url(img/publico.png);
         background-size: cover;
         background-position: center;
-        position: relative;
-        top: 0px;
-        left: 13%;
-        z-index: 2;
-        margin-bottom: 100px;
+        position: initial;
+        margin: 0 auto 100px auto;
     }
     
     .userpersona{
-        width: 224px;
-        margin: 18px;
+        width: 237px;
+        margin: 7px;
     }
     
     .foto-userpersona{
         object-fit: cover;
-        width: 232px;
-        height: 337px;
+        width: 210px;
+        height: 250px;
         border-radius: 15px;
         margin-bottom: 20px;
     }
@@ -1100,12 +1087,11 @@ p{
     }
     
     .ux-mockup{
-        width: 1101px;
+        width: 990px;
         height: 597px;
-        position: relative;
-        top: -275px;
-        left: 13%;
-        z-index: 2;
+        position: initial;
+        margin: 0 auto 100px auto;
+        z-index: 3;
     }
     
     .detalles{
@@ -1168,33 +1154,33 @@ p{
     }
     
     .imagen-contenido2{
-        width: 1107px;
+        width: 990px;
         position: relative;
-        top: -150px;
-        left: 13%;
-        margin-bottom: 60px;
+        top: 560px;
+        left: 0%;
+        margin: 0 auto 60px 0;
         z-index: 2;
     }
     
     .imagen-benchmarking{
-        background: url(..//2.0/img/benchmarking.png);
+        background: url(img/benchmarking.png);
         background-size: contain;
         background-position: center;
-        width: 800px;
+        width: 712px;
         height: 368px;
         position: relative;
-        top: -60px;
-        left: 24%;
-        margin: 0 0 100px 0;
+        top: 550px;
+        left: 0px;
+        margin: 0 auto 30px auto;
         z-index: 2;
     }
     
     .imagen-mockup{
-        width: 1107px;
+        width: 990px;
         position: relative;
-        top: -30px;
-        left: 13%;
-        margin-bottom: 100px;
+        top: 600px;
+        left: 0px;
+        margin: 0 auto 100px auto;
         z-index: 2;
     }
     
