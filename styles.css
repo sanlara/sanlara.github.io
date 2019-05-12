@@ -507,6 +507,11 @@ br {
     z-index: 3;
 } 
 
+.logo:hover{
+    color: #13161B;
+    text-decoration: none;
+} 
+
 .titulo-principal{
     font-size: 80px;
 } 

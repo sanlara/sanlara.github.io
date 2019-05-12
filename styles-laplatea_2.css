@@ -433,7 +433,7 @@ p{
     top: 0px;
     left: 7%;
     z-index: 2;
-    margin-bottom: 50px;
+    margin: 0 0 40px 0;
 }
 
 .wrapper-iconosresearch{
@@ -936,6 +936,22 @@ p{
         left: 0%;
         margin: 0 auto;
     } 
+
+    .wrapper-contenido-ui{
+        width: 712px;
+        margin: 0 auto 50px auto;
+        position: relative;
+        top: 500px;
+        left: 0px;
+    } 
+
+    .wrapper-contenido-escala{
+        width: 712px;
+        margin: 0 auto 50px auto;
+        position: relative;
+        top: 500px;
+        left: 0px;
+    } 
     
     .laptop-LaPlatea2{
         width: 990px;
@@ -1132,7 +1148,7 @@ p{
     
     .contenido-general-2{
         background: #fff;
-        height: 10700px;
+        height: 9400px;
         width: 100%;
         position: relative;
     }
@@ -1156,7 +1172,7 @@ p{
     .imagen-contenido2{
         width: 990px;
         position: relative;
-        top: 560px;
+        top: 500px;
         left: 0%;
         margin: 0 auto 60px 0;
         z-index: 2;
@@ -1166,10 +1182,11 @@ p{
         background: url(img/benchmarking.png);
         background-size: contain;
         background-position: center;
+        background-repeat: no-repeat;
         width: 712px;
         height: 368px;
         position: relative;
-        top: 550px;
+        top: 500px;
         left: 0px;
         margin: 0 auto 30px auto;
         z-index: 2;
@@ -1178,35 +1195,38 @@ p{
     .imagen-mockup{
         width: 990px;
         position: relative;
-        top: 600px;
+        top: 550px;
         left: 0px;
         margin: 0 auto 100px auto;
         z-index: 2;
     }
     
     .imagen-colores{
-        width: 765px;
+        width: 990px;
+        height: 550px;
         position: relative;
-        top: -50px;
-        left: 25%;
+        top: 500px;
+        left: 0%;
+        margin: 0 auto 10px auto;
         z-index: 2;
     }
     
     .imagen-escala{
-        width: 765px;
+        width: 990px;
+        height: 425px;
         position: relative;
-        top: -50px;
-        left: 25%;
-        margin-bottom: 20px;
+        top: 500px;
+        left: 0%;
+        margin: 0 auto 100px auto;
         z-index: 2;
     }   
     
     .capturas{
-        width: 1195px;
+        width: 990px;
         position: relative;
-        top: 0px;
-        left: 10%;
-        margin-bottom: 50px;
+        top: 400px;
+        left: 0%;
+        margin: 0 auto 40px auto;
         z-index: 2;
     }  
     
