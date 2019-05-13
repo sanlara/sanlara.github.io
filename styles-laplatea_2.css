@@ -845,6 +845,11 @@ p{
         color: #FFBA30;
         text-decoration: none;
     } 
+
+    .menu-open .logo:hover{
+        color: #13161B;
+        text-decoration: none;
+    } 
     
     .middle{
         position: absolute;
