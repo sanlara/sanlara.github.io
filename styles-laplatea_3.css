@@ -303,34 +303,32 @@ p{
     width: 100%;
 }
 
-.wrapper{
+.wrapper1{
     width: 90%;
     margin: 0 auto 40px auto;
     position: relative;
-    top: 10%;
+    top: 5%;
+    text-align: center;
 } 
 
 .wrapper-why{
     width: 80%;
     margin: 0 auto 40px auto;
+    text-align: center;
     position: relative;
-    top: 10%;
+    top: 5%;
 } 
 
-.wrapper3{
-    width: 80%;
+.wrapper2{
+    width: 330px;
     margin: 0 auto 0 auto;
     position: relative;
-    top: 2%;
-    text-align: center;
+    top: 5%;
 } 
 
 .gif{
-    width:100%;
-    height:0;
-    padding-bottom:100%;
-    position: relative;
-    margin-bottom: 30px;
+    width: 330px;
+    height: 330px;
 }
 
 .imagen-tools{
@@ -671,6 +669,8 @@ p{
         width: 55%;
         margin: 0 auto;
         text-align: center;
+        position: relative;
+        top: 10%;
     } 
     
     .wrapper-tools{
