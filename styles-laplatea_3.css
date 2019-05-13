@@ -149,7 +149,7 @@ h1{
 }
 
 h2{
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 600;
     color: #FAAB2A;
     margin-bottom: 20px;
@@ -269,31 +269,31 @@ p{
 
 .razones-1{
     background: #13161B;
-    height: 950px;
+    height: 775px;
     width: 100%;
 }
 
 .razones-2{
     background: #fff;
-    height: 950px;
+    height: 775px;
     width: 100%;
 }
 
 .razones-3{
     background: #FAAB2A;
-    height: 950px;
+    height: 775px;
     width: 100%;
 }
 
 .razones-4{
     background: #13161B;
-    height: 950px;
+    height: 775px;
     width: 100%;
 }
 
 .razones-5{
     background: #fff;
-    height: 950px;
+    height: 775px;
     width: 100%;
 }
 
@@ -303,14 +303,6 @@ p{
     width: 100%;
 }
 
-.wrapper1{
-    width: 90%;
-    margin: 0 auto 40px auto;
-    position: relative;
-    top: 5%;
-    text-align: center;
-} 
-
 .wrapper-why{
     width: 80%;
     margin: 0 auto 40px auto;
@@ -319,16 +311,53 @@ p{
     top: 5%;
 } 
 
+.wrapper1{
+    width: 90%;
+    margin: 0 auto 40px auto;
+    position: relative;
+    top: 10%;
+    text-align: center;
+} 
+
 .wrapper2{
+    width: 330px;
+    margin: 0 auto 0 auto;
+    position: relative;
+    top: 10%;
+} 
+
+.wrapper1-1{
+    width: 90%;
+    margin: 0 auto 40px auto;
+    position: relative;
+    top: 5%;
+    text-align: center;
+} 
+
+.wrapper2-2{
     width: 330px;
     margin: 0 auto 0 auto;
     position: relative;
     top: 5%;
 } 
 
-.gif{
+.wrapper-tools{
+    width: 300px;
+    margin: 0 auto 0 auto;
+    position: relative;
+    top: 8%;
+    left: 0%;
+    text-align: center;
+} 
+
+.gif1{
+    width: 310px;
+    height: 310px;
+}
+
+.gif2{
     width: 330px;
-    height: 330px;
+    height: 280px;
 }
 
 .imagen-tools{
@@ -339,7 +368,7 @@ p{
     background-position: center;
     margin: 0 auto 80px auto;
     position: relative;
-    top: 12%;
+    top: 9%;
     text-align: center;
 }
 
@@ -665,6 +694,25 @@ p{
         transform: translate(-50%, -50%);
     } 
 
+    .wrapper1-1{
+        width: 500px;
+        margin: 0 30px 0 30px;
+        position: absolute;
+        top: 50%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    } 
+
+    .wrapper2-2{
+        width: 425px;
+        margin: 0;
+        position: relative;
+        top: 39%;
+        left: 80%;
+        transform: translate(-50%, -50%);
+    } 
+
     .wrapper-why{
         width: 55%;
         margin: 0 auto;
@@ -685,6 +733,11 @@ p{
     .gif{
         width: 400px;
         height: 400px;
+    }
+
+    .gif2{
+        width: 400px;
+        height: 350px;
     }
     
     .imagen-tools{
