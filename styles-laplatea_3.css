@@ -367,6 +367,82 @@ p{
     text-align: center;
 }
 
+@media only screen and (min-width: 768px) {
+
+
+    .logo{
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 3px;
+        position: absolute;
+        left: 45%;
+        top: 7%;
+        z-index: 3;
+    } 
+    
+    .menu-open .logo{ 
+        position: absolute;
+        left: 45%;
+        top: 7%;
+        z-index: 3;
+    } 
+    
+    .menu-open .logo:hover{
+        color: #13161B;
+        text-decoration: none;
+    } 
+    
+    .texto-menu{
+        font-size: 60px;
+        margin-bottom: 25px;
+    }
+    
+    .texto-menu:hover{
+        font-size: 60px;
+        margin-bottom: 25px;
+    }
+    
+    .texto-menu2{
+        text-align: right;
+        margin-bottom: 15px;
+        position: absolute;
+        right: 8%;
+        top: 16%;
+        z-index: 3;
+        transition: top 350ms ease-in-out;
+    }
+
+    p{
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 25px;
+        line-height: 140%;
+        color: #13161B;
+    }
+
+    .hero-about{
+        background: linear-gradient(108.15deg, #FAAB2A 0%, #FEC136 78.7%);
+        height: 100vh;
+        width: 100%;
+    }
+
+    .about1{
+        width: 600px;
+        position: absolute;
+        left: 50%;
+        top: 53%;
+        transform: translate(-50%, -50%);
+        text-align: left;
+    } 
+        
+    .ricardo{
+        width: 100px;
+    } 
+
+}
+
 @media only screen and (min-width: 1024px) {
     
     html, body {
