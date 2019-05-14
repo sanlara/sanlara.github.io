@@ -446,6 +446,12 @@ br {
     z-index: 3;
 } 
 
+
+.menu-open .logo:hover{
+    color: #13161B;
+    text-decoration: none;
+} 
+
 .texto-menu{
     font-size: 80px;
     margin-bottom: 25px;
@@ -508,7 +514,7 @@ br {
 } 
 
 .logo:hover{
-    color: #13161B;
+    color: #FFBA30;
     text-decoration: none;
 } 
 
