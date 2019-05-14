@@ -792,6 +792,56 @@ p{
     }
 }
 
+@media only screen and (min-width: 768px) {
+
+
+    .logo{
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 3px;
+        position: absolute;
+        left: 45%;
+        top: 7%;
+        z-index: 3;
+    } 
+    
+    .menu-open .logo{ 
+        position: absolute;
+        left: 45%;
+        top: 7%;
+        z-index: 3;
+    } 
+    
+    .menu-open .logo:hover{
+        color: #13161B;
+        text-decoration: none;
+    } 
+    
+    .texto-menu{
+        font-size: 60px;
+        margin-bottom: 25px;
+    }
+    
+    .texto-menu:hover{
+        font-size: 60px;
+        margin-bottom: 25px;
+    }
+    
+    .texto-menu2{
+        text-align: right;
+        margin-bottom: 15px;
+        position: absolute;
+        right: 8%;
+        top: 16%;
+        z-index: 3;
+        transition: top 350ms ease-in-out;
+    }
+
+} 
+
 @media only screen and (min-width: 1024px) {
     
     html, body {
