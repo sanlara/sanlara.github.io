@@ -193,47 +193,19 @@ p{
 }
 
 .razones-1 .p2{
-    color: #fff;
-}
-
-.razones-1 .p3{
-    color: #fff;
-}
-
-.razones-1 .p4{
-    -webkit-text-stroke: 3px rgb(255, 255, 255);
-    paint-order: stroke fill;
+    color: #13161B;
 }
 
 .razones-2 .p2{
     color: #13161B;
 }
 
-.razones-2 .p4{
-    -webkit-text-stroke: 3px rgb(19, 22, 27);
-    paint-order: stroke fill;
-    color: #fff
-}
-
-.razones-3 .p4{
-    -webkit-text-stroke: 3px rgb(19, 22, 27);
-    paint-order: stroke fill;
-    color: #FAAB2A
-}
-
-.razones-4 .p2{
+.razones-3 .p2{
     color: #fff;
 }
 
-.razones-4 .p4{
-    -webkit-text-stroke: 3px rgb(255, 255, 255);
-    paint-order: stroke fill;
-}
-
-.razones-5 .p4{
-    -webkit-text-stroke: 3px rgb(19, 22, 27);
-    paint-order: stroke fill;
-    color: #fff
+.razones-4 .p2{
+    color: #13161B;
 }
 
 .hero-about .p3{
@@ -267,32 +239,39 @@ p{
     margin-bottom: 30px;
 } 
 
-.razones-1{
+.razones-why{
     background: #13161B;
+    position: relative;
+    height: 275px;
+    width: 100%;
+}
+
+.razones-1{
+    background: #fff;
     height: 775px;
     width: 100%;
 }
 
 .razones-2{
-    background: #fff;
-    height: 775px;
-    width: 100%;
-}
-
-.razones-3{
     background: #FAAB2A;
     height: 775px;
     width: 100%;
 }
 
-.razones-4{
+.razones-3{
     background: #13161B;
     height: 775px;
     width: 100%;
 }
 
-.razones-5{
+.razones-4{
     background: #fff;
+    height: 775px;
+    width: 100%;
+}
+
+.razones-5{
+    background: #FAAB2A;
     height: 775px;
     width: 100%;
 }
@@ -305,10 +284,11 @@ p{
 
 .wrapper-why{
     width: 80%;
-    margin: 0 auto 40px auto;
-    text-align: center;
     position: relative;
-    top: 5%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 } 
 
 .wrapper1{
@@ -330,7 +310,7 @@ p{
     width: 90%;
     margin: 0 auto 40px auto;
     position: relative;
-    top: 5%;
+    top: 15%;
     text-align: center;
 } 
 
@@ -338,10 +318,19 @@ p{
     width: 330px;
     margin: 0 auto 0 auto;
     position: relative;
-    top: 5%;
+    top: 15%;
 } 
 
-.wrapper-tools{
+.wrapper-tools1{
+    width: 300px;
+    margin: 0 auto 0 auto;
+    position: relative;
+    top: 8%;
+    left: 0%;
+    text-align: center;
+} 
+
+.wrapper-tools2{
     width: 300px;
     margin: 0 auto 0 auto;
     position: relative;
@@ -567,47 +556,19 @@ p{
     }
     
     .razones-1 .p2{
-        color: #fff;
+        color: #13161B;
     }
-    
-    .razones-1 .p3{
-        color: #fff;
-    }
-    
-    .razones-1 .p4{
-        -webkit-text-stroke: 3px rgb(255, 255, 255);
-        paint-order: stroke fill;
-    }
-    
+        
     .razones-2 .p2{
         color: #13161B;
     }
-    
-    .razones-2 .p4{
-        -webkit-text-stroke: 3px rgb(19, 22, 27);
-        paint-order: stroke fill;
-        color: #fff
-    }
-    
-    .razones-3 .p4{
-        -webkit-text-stroke: 3px rgb(19, 22, 27);
-        paint-order: stroke fill;
-        color: #FAAB2A
-    }
-    
-    .razones-4 .p2{
+
+    .razones-3 .p2{
         color: #fff;
     }
     
-    .razones-4 .p4{
-        -webkit-text-stroke: 3px rgb(255, 255, 255);
-        paint-order: stroke fill;
-    }
-    
-    .razones-5 .p4{
-        -webkit-text-stroke: 3px rgb(19, 22, 27);
-        paint-order: stroke fill;
-        color: #fff
+    .razones-4 .p2{
+        color: #13161B;
     }
     
     .hero-about .p3{
@@ -634,36 +595,43 @@ p{
         width: 100px;
     } 
     
-    .razones-1{
+    .razones-why{
         background: #13161B;
+        position: relative;
+        height: 175px;
+        width: 100%;
+    }
+
+    .razones-1{
+        background: #fff;
         position: relative;
         height: 100vh;
         width: 100%;
     }
     
     .razones-2{
-        background: #fff;
-        position: relative;
-        height: 100vh;
-        width: 100%;
-    }
-    
-    .razones-3{
         background: #FAAB2A;
         position: relative;
         height: 100vh;
         width: 100%;
     }
     
-    .razones-4{
+    .razones-3{
         background: #13161B;
         position: relative;
         height: 100vh;
         width: 100%;
     }
     
-    .razones-5{
+    .razones-4{
         background: #fff;
+        position: relative;
+        height: 100vh;
+        width: 100%;
+    }
+    
+    .razones-5{
+        background: #FAAB2A;
         position: relative;
         height: 100vh;
         width: 100%;
@@ -705,23 +673,34 @@ p{
     } 
 
     .wrapper2-2{
-        width: 425px;
+        width: 400px;
         margin: 0;
         position: relative;
-        top: 39%;
+        top: 43%;
         left: 80%;
         transform: translate(-50%, -50%);
     } 
 
     .wrapper-why{
-        width: 55%;
-        margin: 0 auto;
-        text-align: center;
+        width: 643px;
         position: relative;
-        top: 10%;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0px;
+        padding: 0px
     } 
     
-    .wrapper-tools{
+    .wrapper-tools1{
+        width: 500px;
+        margin: 0 auto 0 auto;
+        position: relative;
+        top: 15%;
+        left: 0%;
+        text-align: center;
+    } 
+
+    .wrapper-tools2{
         width: 500px;
         margin: 0 auto 0 auto;
         position: relative;
@@ -730,14 +709,14 @@ p{
         text-align: center;
     } 
     
-    .gif{
+    .gif1{
         width: 400px;
         height: 400px;
     }
 
     .gif2{
-        width: 400px;
-        height: 350px;
+        width: 450px;
+        height: 400px;
     }
     
     .imagen-tools{
