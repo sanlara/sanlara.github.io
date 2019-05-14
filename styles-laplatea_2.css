@@ -271,7 +271,7 @@ a:hover{
 .wrapper-contenido2{
     max-width: 80%;
     position: relative;
-    top: -160px;
+    top: 100px;
     left: 7%;
     z-index: 2;
     margin-bottom: 100px;
@@ -280,16 +280,33 @@ a:hover{
 .wrapper-contenido-bench{
     max-width: 80%;
     position: relative;
-    top: -140px;
+    top: 100px;
     left: 10%;
     z-index: 2;
     margin-bottom: 40px;
+} 
+
+.wrapper-contenido-ui{
+    width: 80%;
+    position: relative;
+    top: 40px;
+    left: 7%;
+    margin-bottom: 40px;
+} 
+
+.wrapper-contenido-escala{
+    width: 80%;
+    position: relative;
+    top: 70px;
+    left: 7%;
 } 
 
 .laptop-LaPlatea2{
     width: 349px;
     height: 248px;
     margin: 0 auto 100px auto;
+    position: relative;
+    top:50px;
     text-align: center;
 }
 
@@ -540,7 +557,7 @@ p{
 
 .contenido-general-2{
     background: #fff;
-    height: 5000px;
+    height: 4700px;
     width: 100%;
     position: relative;
 }
@@ -565,20 +582,20 @@ p{
     object-fit: cover;
     width: 330px;
     position: relative;
-    top: -190px;
+    top: 50px;
     left: 6%;
     margin-bottom: 40px;
     z-index: 2;
 }
 
 .imagen-benchmarking{
-    background: url(..//2.0/img/benchmarking_mobile.png);
+    background: url(img/benchmarking_mobile.png);
     background-size: contain;
     background-position: center;
     width: 315px;
     height: 380px;
     position: relative;
-    top: -130px;
+    top: 100px;
     left: 10%;
     margin: 0 0 100px 0;
     z-index: 2;
@@ -588,7 +605,7 @@ p{
     object-fit: contain;
     width: 324px;
     position: relative;
-    top: -300px;
+    top: 60px;
     left: 7%;
     margin-bottom: 50px;
     z-index: 2;
@@ -598,7 +615,7 @@ p{
     object-fit: contain;
     width: 337px;
     position: relative;
-    top: -10px;
+    top: 50px;
     left: 5%;
     z-index: 2;
     margin-bottom: 30px;
@@ -608,7 +625,7 @@ p{
     object-fit: contain;
     width: 337px;
     position: relative;
-    top: -10px;
+    top: 70px;
     left: 7%;
     margin-bottom: 20px;
     z-index: 2;
@@ -618,7 +635,7 @@ p{
 .capturas{
     width: 323px;
     position: relative;
-    top: 0px;
+    top: 80px;
     left: 7%;
     margin-bottom: 25px;
     z-index: 2;
