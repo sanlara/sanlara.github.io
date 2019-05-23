@@ -1330,7 +1330,7 @@ p{
 
 } 
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1200px) {
     
     html, body {
         overflow-x: visible;
