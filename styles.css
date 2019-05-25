@@ -486,6 +486,15 @@ a:hover{
     line-height: 170%;
 }
 
+.DescripcionRic2{
+    font-size: 18px;
+    font-weight: 600;
+    color: #FAAB2A;
+    text-align: center;
+    letter-spacing: 0.5px;
+    line-height: 170%;
+}
+
 .wrapper {
     max-width: 500px;
     position: absolute;
