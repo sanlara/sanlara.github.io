@@ -910,6 +910,7 @@ p{
         position: relative;
         top: 300px;
         left: 0px;
+        z-index: 2;
     } 
 
     .wrapper-contenido-escala{
@@ -1082,36 +1083,40 @@ p{
         width: 1300px;
         height: 640px;
         position: absolute;
-        top: 1220px;
+        top: 1170px;
         left: 5%;
         z-index: 1;
+        display: block;
     }
     
     .detalles2{
         width: 1300px;
         height: 640px;
         position: absolute;
-        top: 360px;
+        top: 450px;
         left: 6%;
         z-index: 1;
+        display: block;
     }
     
     .detalles3{
         width: 1300px;
         height: 640px;
         position: absolute;
-        top: 2100px;
+        top: 1900px;
         left: 6%;
         z-index: 1;
+        display: block;
     }
     
     .detalles4{
         width: 1300px;
         height: 640px;
         position: absolute;
-        top: 3850px;
+        top: 3450px;
         left: 6%;
         z-index: 1;
+        display: block;
     }
     
     .contenido-general-2{
@@ -1669,42 +1674,6 @@ p{
         position: initial;
         margin: 0 auto 100px auto;
         z-index: 3;
-    }
-    
-    .detalles{
-        width: 1300px;
-        height: 640px;
-        position: absolute;
-        top: 1220px;
-        left: 5%;
-        z-index: 1;
-    }
-    
-    .detalles2{
-        width: 1300px;
-        height: 640px;
-        position: absolute;
-        top: 360px;
-        left: 6%;
-        z-index: 1;
-    }
-    
-    .detalles3{
-        width: 1300px;
-        height: 640px;
-        position: absolute;
-        top: 2100px;
-        left: 6%;
-        z-index: 1;
-    }
-    
-    .detalles4{
-        width: 1300px;
-        height: 640px;
-        position: absolute;
-        top: 3850px;
-        left: 6%;
-        z-index: 1;
     }
     
     .contenido-general-2{
