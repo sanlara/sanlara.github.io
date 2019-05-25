@@ -257,7 +257,7 @@ a:hover{
 }  
 
 .titulo-principal{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 800;
     color: #FAAB2A;
     text-align: center;
@@ -269,7 +269,7 @@ a:hover{
 } 
 
 .descripcion-ric{
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 300;
     color: #ffffff;
     text-align: center;
@@ -280,20 +280,20 @@ a:hover{
 @keyframes text {
     0%{
       color: #FAAB2A;
-      margin-bottom: -140px;
+      margin-bottom: -100px;
     }
     30%{
       letter-spacing: 5px;
-      margin-bottom: -140px;
+      margin-bottom: -100px;
     }
     85%{
       letter-spacing: 1px;
-      margin-bottom: -140px;
+      margin-bottom: -100px;
     }
 }
 
 .DescripcionRic2{
-    font-size: 17px;
+    font-size: 14px;
     font-weight: 600;
     color: #FAAB2A;
     text-align: center;
