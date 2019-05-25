@@ -839,7 +839,7 @@ p{
         width: 500px;
         margin: 0 auto 0 auto;
         position: relative;
-        top: 45%;
+        top: 20%;
         left: 0%;
         text-align: center;
     } 
@@ -855,14 +855,14 @@ p{
     }
     
     .imagen-tools{
-        width: 990px;
-        height: 131px;
-        background-image: url(img/tools_desktop.png);
+        width: 539px;
+        height: 350px;
+        background-image: url(img/tools_desktop-2.png);
         background-size: cover;
         background-position: center;
         margin: 0 auto 80px auto;
         position: relative;
-        top: 35%;
+        top: 22%;
         text-align: center;
     }
 
