@@ -349,17 +349,17 @@ a:hover{
     margin: 0;
 }
 
-.fotos-equipo{
-    height: 87px;
-    width: 88px;
-    margin: 13px;
-    border-radius: 100px;
-}
-
 .equipo{
     width: 224px;
     display: flex;
     align-items: center;
+}
+
+.fotos-equipo{
+    height: 88px;
+    width: 88px;
+    margin: 15px;
+    border-radius: 100px;
 }
 
 h2{
