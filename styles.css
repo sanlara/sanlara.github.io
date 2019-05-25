@@ -98,7 +98,6 @@ a:hover{
 }
 
 .texto-menu:hover{
-    text-decoration: underline;
     font-size: 40px;
     font-weight: 800;
     color: #13161B;
@@ -712,6 +711,7 @@ li{
 }
 
 /* Wobble Horizontal */
+
 @-webkit-keyframes hvr-wobble-horizontal {
     16.65% {
       -webkit-transform: translateX(8px);
@@ -738,6 +738,7 @@ li{
       transform: translateX(0);
     }
   }
+
   @keyframes hvr-wobble-horizontal {
     16.65% {
       -webkit-transform: translateX(8px);
@@ -764,14 +765,16 @@ li{
       transform: translateX(0);
     }
   }
-  .hvr-wobble-horizontal {
+
+.hvr-wobble-horizontal {
     display: inline-block;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   }
-  .hvr-wobble-horizontal:hover, .hvr-wobble-horizontal:focus, .hvr-wobble-horizontal:active {
+
+.hvr-wobble-horizontal:hover, .hvr-wobble-horizontal:focus, .hvr-wobble-horizontal:active {
     -webkit-animation-name: hvr-wobble-horizontal;
     animation-name: hvr-wobble-horizontal;
     -webkit-animation-duration: 1s;
@@ -828,12 +831,12 @@ br {
 
 .texto-menu{
     font-size: 80px;
-    margin-bottom: 25px;
+    margin-bottom: 0px;
 }
 
 .texto-menu:hover{
     font-size: 80px;
-    margin-bottom: 25px;
+    margin-bottom: 0px;
 }
 
 .texto-menu2{
