@@ -187,11 +187,11 @@ a:hover{
 }
 
 .mockup-proyecto{
-    width: 482px;
-    height: 344px;
+    width: 462px;
+    height: 324px;
     position: absolute;
     right: 170px;
-    top: 52%;
+    top: 50%;
     z-index: 1;
     display: none;
 }
@@ -462,7 +462,7 @@ a:hover{
 }
 
 .wrapper-bienvenida{
-    max-width: 70%;
+    max-width: 50%;
 }  
 
 .titulo-principal{
@@ -491,7 +491,7 @@ a:hover{
     max-width: 500px;
     position: absolute;
     left: 120px;
-    top: 60%;
+    top: 58%;
 } 
 
 .marca{
@@ -583,9 +583,9 @@ br {
 
 .wrapper {
     max-width: 800px;
-    position: absolute;
+    position: relative;
     left: 180px;
-    top: 60%;
+    top: 58%;
 } 
 
 .marca{
@@ -609,10 +609,10 @@ br {
 
 .flecha-ver-proyecto{
     width: 21px;
-    height: 15x;
+    height: 15px;
     position: absolute;
     left: 100px;
-    top: 89%;
+    top: 92%;
 }
 
 .logo{
