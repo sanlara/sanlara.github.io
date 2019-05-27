@@ -7,6 +7,7 @@
     <title>Proyectos</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script src="jquery.backgroundMove.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800" rel="stylesheet">
@@ -16,9 +17,9 @@
 
       <header>
         <nav>
-            <a href="index.html" class="logo">Sanlara</a>
+            <a href="index.html" class="logo" data-aos="fade-up">Sanlara</a>
 
-            <svg class="menu" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 124 124" style="enable-background:new 0 0 124 124;" xml:space="preserve">
+            <svg class="menu" data-aos="fade-up" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 124 124" style="enable-background:new 0 0 124 124;" xml:space="preserve">
             <path class="st0" d="M112,6H12C5.4,6,0,11.4,0,18s5.4,12,12,12h100c6.6,0,12-5.4,12-12S118.6,6,112,6z"/>
             <path class="st0" d="M112,50H12C5.4,50,0,55.4,0,62s5.4,12,12,12h100c6.6,0,12-5.4,12-12S118.6,50,112,50z"/>
             <path class="st0" d="M112,94H12c-6.6,0-12,5.4-12,12s5.4,12,12,12h100c6.6,0,12-5.4,12-12S118.6,94,112,94z"/>
@@ -43,7 +44,7 @@
 
         <section class="LaPlatea degrade">
 
-            <div class="wrapper">
+            <div class="wrapper" data-aos="fade-up">
               <h2 class="marca">La Platea</h2>
               <a href="laplatea.html"><h3 class="titulo-proyecto">Todo el teatro <br> de Barcelona <br> en un solo lugar</h3></a> 
               <a href="laplatea.html"><h4 class="ver-proyecto">Ver proyecto</h3></a>
@@ -52,13 +53,13 @@
               h16.5l-5,5c-0.3,0.3-0.3,0.7,0,1c0.3,0.3,0.7,0.3,1,0l6.2-6.2c0.3-0.3,0.3-0.7,0-1L13.4,0.3z"/></svg>
             </div>
 
-            <img class="mockup-proyecto" src="img/laptop-platea.png" alt="Imagen donde se enseña el home de La Platea">
+            <img class="mockup-proyecto" data-aos="fade-up" src="img/laptop-platea.png" alt="Imagen donde se enseña el home de La Platea">
 
         </section>
 
         <section class="DearestRobot degrade"> 
 
-            <div class="wrapper">
+            <div class="wrapper" data-aos="fade-up">
             <h2 class="marca">Dearest Robot</h2>
             <a href="#"><h3 class="titulo-proyecto">Capturando el <br> corazón de parejas <br> a distancia</h3></a>
             <h4 class="ver-proyecto">Ver proyecto</h3>
@@ -67,11 +68,16 @@
              h16.5l-5,5c-0.3,0.3-0.3,0.7,0,1c0.3,0.3,0.7,0.3,1,0l6.2-6.2c0.3-0.3,0.3-0.7,0-1L13.4,0.3z"/></svg>
             </div>
 
-            <img class="mockup-proyecto" src="img/laptop-dearest.png" alt="Imagen donde se enseña el home de Dearest Robot">
+            <img class="mockup-proyecto" data-aos="fade-up" src="img/laptop-dearest.png" alt="Imagen donde se enseña el home de Dearest Robot">
 
         </section>
 
     </main>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init({duration:800});
+        </script>
 
     <script type= "text/javascript"> $('.LaPlatea').backgroundMove({movementStrength:'8'}); </script>
       <script type= "text/javascript"> $('.DearestRobot').backgroundMove({movementStrength:'8'}); </script>
