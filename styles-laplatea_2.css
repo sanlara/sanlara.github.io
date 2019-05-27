@@ -1964,5 +1964,122 @@ p{
     
     }
 
+@media only screen and (min-width: 1600px) {
+
+    .wrapper-bienvenida-laplatea{
+        max-width: 800px;
+        position: absolute;
+        left: 200px;
+        top: 35%;
+        z-index: 1;
+    }  
+
+    .Titulo-LaPlatea{
+        font-size: 30px;
+    }
     
+    .Descripcion-LaPlatea{
+        font-size: 70px;
+    }
+
+    .Linea-LaPlatea{
+        left: 0px;
+        top: 5px;
+        z-index: 3;
+    }
+
+    .logo{
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 3px;
+        position: absolute;
+        left: 47%;
+        top: 7%;
+        z-index: 3;
+    } 
+
+    .mouse{
+        width: 33px;
+        height: 48px;
+    }
+    
+    .menu{
+        height: 23px;
+        width: 23px;
+    }    
+    
+    .equis{
+        display: none;
+        height: 23px;
+        width: 23px;
+    }
+    
+    .menu-open .logo{ 
+        font-size: 20px;
+        left: 47%;
+        top: 7%;
+    } 
+    
+    .texto-menu{
+        font-size: 100px;
+        margin-bottom: 0px;
+    }
+    
+    .texto-menu:hover{
+        font-size: 100px;
+        margin-bottom: 0px;
+    }
+    
+    .texto-menu2{
+        font-size: 18px;
+        right: 8%;
+        top: 16%;
+    }
+    
+    .email-link{ 
+        font-size: 18px;
+    }
+    
+    .email-link:hover{ 
+        font-size: 18px;
+    }
+
+
+    .marca{
+        font-size: 30px;
+    }
+    
+    .titulo-proyecto{
+        font-size: 70px;
+        font-weight: 600;
+        line-height: 100%;
+    }
+    
+    .ver-proyecto{
+        font-size: 20px;
+        font-weight: 300;
+    }
+    
+    .mockup-proyecto{
+        width: 560px;
+        height: 407px;
+        position: absolute;
+        right: 300px;
+        top: 55%;
+        z-index: 1;
+        display: block;
+    }
+    
+    .flecha-ver-proyecto{
+        width: 21px;
+        height: 15px;
+        position: absolute;
+        left: 125px;
+        top: 93%;
+    }
+
+} 
     
