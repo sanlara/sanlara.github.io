@@ -1012,6 +1012,53 @@ p{
     width: 130px;
 } 
 
+.wrapper1{
+    width: 600px;
+    margin: 0 30px 0 30px;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+} 
+
+.wrapper2{
+    width: 625px;
+    margin: 0;
+    position: relative;
+    top: 48%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+} 
+
+.wrapper1-1{
+    width: 600px;
+    margin: 0 30px 0 30px;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+} 
+
+.wrapper2-2{
+    width: 600px;
+    margin: 0;
+    position: relative;
+    top: 43%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+} 
+
+.gif1{
+    width: 600px;
+    height: 600px;
+}
+
+.gif2{
+    width: 650px;
+    height: 600px;
+}
 
 
 }
