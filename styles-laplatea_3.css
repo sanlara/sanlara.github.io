@@ -335,15 +335,6 @@ p{
     text-align: center;
 } 
 
-.wrapper-tools2{
-    width: 300px;
-    margin: 0 auto 0 auto;
-    position: relative;
-    top: 8%;
-    left: 0%;
-    text-align: center;
-} 
-
 .gif1{
     width: 310px;
     height: 310px;
@@ -903,15 +894,6 @@ p{
         left: 0%;
         text-align: center;
     } 
-
-    .wrapper-tools2{
-        width: 500px;
-        margin: 0 auto 0 auto;
-        position: relative;
-        top: 20%;
-        left: 0%;
-        text-align: center;
-    } 
     
     .gif1{
         width: 400px;
@@ -935,5 +917,103 @@ p{
         text-align: center;
     }
 
+@media only screen and (min-width: 1600px) {
+
+    .about1{
+        width: 770px;
+        position: absolute;
+        left: 50%;
+        top: 53%;
+        transform: translate(-50%, -50%);
+        text-align: left;
+    } 
+    
+    .logo{
+        font-size: 20px;
+    } 
+
+    h1{
+        font-size: 50px;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+
+.mouse{
+    width: 33px;
+    height: 48px;
+}
+
+.menu{
+    height: 23px;
+    width: 23px;
+}    
+
+.equis{
+    display: none;
+    height: 23px;
+    width: 23px;
+}
+
+.menu-open .logo{ 
+    font-size: 20px;
+    left: 47%;
+    top: 7%;
+} 
+
+.texto-menu{
+    font-size: 100px;
+    margin-bottom: 0px;
+}
+
+.texto-menu:hover{
+    font-size: 100px;
+    margin-bottom: 0px;
+}
+
+.texto-menu2{
+    font-size: 18px;
+    right: 8%;
+    top: 16%;
+}
+
+.email-link{ 
+    font-size: 18px;
+}
+
+.email-link:hover{ 
+    font-size: 18px;
+}
+
+.wrapper-tools1{
+    width: 800px;
+    position: relative;
+    top: 20%;
+    left: 0%;
+
+} 
+
+.imagen-tools{
+    width: 639px;
+    height: 450px;
+    background-image: url(img/tools_desktop-2.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto 80px auto;
+    position: relative;
+    top: 28%;
+    text-align: center;
+}
+
+.ricardo{
+    width: 130px;
+} 
+
+
+
+}
 
 }
