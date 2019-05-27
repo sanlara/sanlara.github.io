@@ -1017,5 +1017,190 @@ li{
     display: inline-block;
 }
   
+}
+
+@media only screen and (min-width: 1600px) {
+
+.bienvenida{
+    background: #13161B;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper-bienvenida{
+    max-width: 80%;
+}  
+
+.titulo-principal{
+    font-size: 100px;
+    font-weight: 800;
+    color: #FAAB2A;
+    text-align: center;
+    margin-bottom: 25px;
+    letter-spacing: 1.2px;
+    background:  #13161B;
+    position: relative;
+    animation: text 2s 1;
+} 
+
+.descripcion-ric{
+    font-size: 22px;
+
+}
+
+@keyframes text {
+    0%{
+      color: #FAAB2A;
+      margin-bottom: -100px;
+    }
+    30%{
+      letter-spacing: 5px;
+      margin-bottom: -100px;
+    }
+    85%{
+      letter-spacing: 1px;
+      margin-bottom: -100px;
+    }
+}
+
+.DescripcionRic2{
+    font-size: 22px;
+
+}
+
+.logo{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    position: absolute;
+    left: 47%;
+    top: 7%;
+    z-index: 3;
+} 
+
+.mouse{
+    width: 33px;
+    height: 48px;
+}
+
+.menu{
+    height: 23px;
+    width: 23px;
+}    
+
+.equis{
+    display: none;
+    height: 23px;
+    width: 23px;
+}
+
+.menu-open .logo{ 
+    font-size: 20px;
+    left: 47%;
+    top: 7%;
+} 
+
+.texto-menu{
+    font-size: 100px;
+    margin-bottom: 0px;
+}
+
+.texto-menu:hover{
+    font-size: 100px;
+    margin-bottom: 0px;
+}
+
+.texto-menu2{
+    font-size: 18px;
+    right: 8%;
+    top: 16%;
+}
+
+.email-link{ 
+    font-size: 18px;
+}
+
+.email-link:hover{ 
+    font-size: 18px;
+}
+
+.wrapper {
+    max-width: 800px;
+    position: relative;
+    left: 300px;
+    top: 60%;
+} 
+
+.marca{
+    font-size: 30px;
+}
+
+.titulo-proyecto{
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+.ver-proyecto{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.mockup-proyecto{
+    width: 560px;
+    height: 407px;
+    position: absolute;
+    right: 300px;
+    top: 55%;
+    z-index: 1;
+}
+
+.flecha-ver-proyecto{
+    width: 21px;
+    height: 15px;
+    position: absolute;
+    left: 125px;
+    top: 93%;
+}
+
+.footer-wrapper{
+    width: 1002px;
+    padding: 220px 0 40px;
+}
+
+.footer-top{
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.footer-contacts{
+    font-size: 90px;
+    font-weight: 900;
+}
+
+.footer-email2{
+    font-size: 40px;
+    font-weight: 300;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+.footer-funfact{
+    font-size: 22px;
+}
+
+.footer-end{
+    font-size: 16px;
+}
+
+.footer-links a{
+    font-size: 22px;
+}
 
 }
