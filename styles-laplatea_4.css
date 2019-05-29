@@ -1,0 +1,251 @@
+/*Pagina de Deares Robot*/
+
+html, body {
+    margin: 0;
+    font-family:'Poppins', sans-serif;
+    background: #fff;
+    overflow-x: hidden;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.navigation {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(118.15deg, #FAAB2A 0%, #FEC136 87.77%);
+    position: absolute;
+    right: 0;
+    top: -100%;
+    transition: top 350ms ease-in-out;
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+}
+
+.navigation li{
+    list-style-type: none;
+}
+
+.menu{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 7%;
+    right: 8%;
+    z-index: 3;
+    cursor: pointer;
+    fill: #ffffff;
+}
+
+.menu:hover{
+    fill: #FAAB2A;
+} 
+
+.equis{
+    display: none;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 7%;
+    right: 8%;
+    z-index: 3;
+    cursor: pointer;
+    fill: #13161B;;
+}    
+
+.menu-open .navigation {
+    top: 0;
+}
+
+.menu-open .menu{
+    display: none;
+}
+
+.menu-open .equis{ 
+    display: block; 
+}
+
+.menu-open .logo{ 
+    color: #13161B; 
+    font-weight: 800;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    position: absolute;
+    left: 46.5%;
+    top: 7%;
+    z-index: 3;
+} 
+
+.texto-menu{
+    font-size: 40px;
+    font-weight: 800;
+    color: #13161B;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.texto-menu:hover{
+    font-size: 40px;
+    font-weight: 800;
+    color: #13161B;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.texto-menu2{
+    font-size: 14px;
+    font-weight: 500;
+    color: #13161B;
+    text-align: center;
+    margin-bottom: 15px;
+    position: absolute;
+    left: 22%;
+    top: 75%;
+    z-index: 3;
+    display: none;
+    transition: top 350ms ease-in-out;
+}
+
+.menu-open .texto-menu2{ 
+    display: block; 
+}
+
+.email-link{ 
+    font-size: 14px;
+    font-weight: 500;
+    color: #13161B;
+    text-align: right;
+}
+
+.email-link:hover{ 
+    font-size: 14px;
+    font-weight: 500;
+    color: #13161B;
+    text-align: right;
+    text-decoration: underline;
+}
+
+.logo{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    position: absolute;
+    left: 40%;
+    top: 7%;
+    z-index: 3;
+} 
+
+.logo:hover{
+    color: #FFBA30;
+    text-decoration: none;
+} 
+
+.menu-open .logo{ 
+    position: absolute;
+    left: 38%;
+    top: 7%;
+    z-index: 3;
+} 
+
+.middle{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 1;
+}
+
+.mouse{
+    width: 28px;
+    height: 42px;
+    border: 3px solid #ffffff;
+    border-radius: 80px;
+}
+
+.mouse::before{
+    content: "";
+    width: 7px;
+    height: 7px;
+    position: absolute;
+    top: 10px;
+    background: #fff;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    opacity: 1;
+    animation: mouse 1.2s infinite;
+}
+
+.hero-laplatea{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/maglari2_mobile.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.wrapper-bienvenida-laplatea{
+    max-width: 80%;
+    position: absolute;
+    left: 10%;
+    top: 60%;
+    z-index: 1;
+}  
+
+.Degrade-LaPlatea{
+    height: 375px;
+    width: 100%;
+    background:  linear-gradient(180deg, rgba(88, 1, 199, 0) 0%, #5801C7 90.87%);;
+    position: absolute;
+    left: 0%;
+    top: 45%;
+    z-index: 1;
+}
+
+.Titulo-LaPlatea{
+    font-family: poppins;
+    font-size: 22px;
+    font-weight: 300;
+    color: #FFD794;
+    position: relative;
+    left: 75px;
+    top: 4px;
+    z-index: 1;
+    margin-bottom: 20px;
+}
+
+.Descripcion-LaPlatea{
+    font-family: poppins;
+    font-size: 35px;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 100%;
+}
+
+.Linea-LaPlatea{
+    display: block;
+    height: 1px;
+    width: 60px;
+    border: 0;
+    border-top: 2px solid #FFE1AE;
+    margin: 1em 0;
+    padding: 0;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 3;
+}
