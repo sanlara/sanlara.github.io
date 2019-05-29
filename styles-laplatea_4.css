@@ -3,7 +3,7 @@
 html, body {
     margin: 0;
     font-family:'Poppins', sans-serif;
-    background: #fff;
+    background: #8438EC;
     overflow-x: hidden;
 }
 
@@ -21,7 +21,7 @@ a:hover{
     right: 0;
     top: -100%;
     transition: top 350ms ease-in-out;
-    z-index: 2;
+    z-index: 3;
     height: 100%;
     width: 100%;
     list-style-type: none;
@@ -38,13 +38,13 @@ a:hover{
     position: absolute;
     top: 7%;
     right: 8%;
-    z-index: 3;
+    z-index: 4;
     cursor: pointer;
     fill: #ffffff;
 }
 
 .menu:hover{
-    fill: #FAAB2A;
+    fill: #FEC6D9;
 } 
 
 .equis{
@@ -54,7 +54,7 @@ a:hover{
     position: absolute;
     top: 7%;
     right: 8%;
-    z-index: 3;
+    z-index: 4;
     cursor: pointer;
     fill: #13161B;;
 }    
@@ -80,7 +80,7 @@ a:hover{
     position: absolute;
     left: 46.5%;
     top: 7%;
-    z-index: 3;
+    z-index: 4;
 } 
 
 .texto-menu{
@@ -142,7 +142,7 @@ a:hover{
     position: absolute;
     left: 40%;
     top: 7%;
-    z-index: 3;
+    z-index: 4;
 } 
 
 .logo:hover{
@@ -154,51 +154,69 @@ a:hover{
     position: absolute;
     left: 38%;
     top: 7%;
-    z-index: 3;
+    z-index: 4;
 } 
 
-.middle{
-    position: absolute;
-    bottom: 5%;
-    left: 50%;
-    transform: translate(-50%);
-    z-index: 1;
+h2{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
 }
 
-.mouse{
-    width: 28px;
-    height: 42px;
-    border: 3px solid #ffffff;
-    border-radius: 80px;
+h3{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
 }
 
-.mouse::before{
-    content: "";
-    width: 7px;
-    height: 7px;
-    position: absolute;
-    top: 10px;
-    background: #fff;
-    left: 50%;
-    transform: translateX(-50%);
-    border-radius: 50%;
-    opacity: 1;
-    animation: mouse 1.2s infinite;
+h4{
+    font-size: 50px;
+    font-weight: 800;
+    color: #fff;
+    margin-bottom: 10px;
 }
 
-.hero-laplatea{
+p{
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 35px;
+    line-height: 130%;
+}
+
+
+.p2{
+    font-size: 20px;
+    font-weight: 300;
+    color: #ffffff;
+    line-height: 130%;
+    text-align: center;
+    display: inline-block;
+    width: 154px;
+    height: 30px;
+    margin: 0.6em;
+}
+
+.p2equipo{
+    font-size: 16px;
+    font-weight: 300;
+    color: #8438EC;
+    line-height: 130%;
+    margin-bottom: 0;
+}
+
+.hero-dearestrobot{
     height: 100vh;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(img/maglari2_mobile.png);
+    background-image: url(img/robot-hero-mobile.png);
     background-position: center;
     background-size: cover;
     position: relative;
 }
 
-.wrapper-bienvenida-laplatea{
+.wrapper-bienvenida-dearestrobot{
     max-width: 80%;
     position: absolute;
     left: 10%;
@@ -206,17 +224,7 @@ a:hover{
     z-index: 1;
 }  
 
-.Degrade-LaPlatea{
-    height: 375px;
-    width: 100%;
-    background:  linear-gradient(180deg, rgba(88, 1, 199, 0) 0%, #5801C7 90.87%);;
-    position: absolute;
-    left: 0%;
-    top: 45%;
-    z-index: 1;
-}
-
-.Titulo-LaPlatea{
+.Titulo-dearestrobot{
     font-family: poppins;
     font-size: 22px;
     font-weight: 300;
@@ -228,7 +236,7 @@ a:hover{
     margin-bottom: 20px;
 }
 
-.Descripcion-LaPlatea{
+.Descripcion-dearestrobot{
     font-family: poppins;
     font-size: 35px;
     font-weight: 600;
@@ -236,7 +244,7 @@ a:hover{
     line-height: 100%;
 }
 
-.Linea-LaPlatea{
+.Linea-dearestrobot{
     display: block;
     height: 1px;
     width: 60px;
@@ -248,4 +256,711 @@ a:hover{
     left: 0px;
     top: 0px;
     z-index: 3;
+}
+
+.contenido-general-1{
+    background: #FEC6D9;
+    height: 6800px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.wrapper-contenido{
+    max-width: 80%;
+    position: relative;
+    top: 0%;
+    left: 10%;
+    z-index: 2;
+    margin-bottom: 40px;
+} 
+
+.laptop-dearestrobot{
+    width: 349px;
+    height: 248px;
+    margin: 0 auto 100px auto;
+    position: relative;
+    top: 50px;
+    text-align: center;
+}
+
+.roles{
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0;
+}
+
+.iconos-roles{    
+    width: 160px;
+    height: 50px;
+    margin: 0.6em;
+}  
+
+.nubes{
+    object-fit: cover;
+    width: 1456px;
+    height: 363px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    background-image: url(img/nubes.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* Wobble Horizontal */
+@-webkit-keyframes hvr-wobble-horizontal {
+    16.65% {
+      -webkit-transform: translateX(8px);
+      transform: translateX(8px);
+    }
+    33.3% {
+      -webkit-transform: translateX(-6px);
+      transform: translateX(-6px);
+    }
+    49.95% {
+      -webkit-transform: translateX(4px);
+      transform: translateX(4px);
+    }
+    66.6% {
+      -webkit-transform: translateX(-2px);
+      transform: translateX(-2px);
+    }
+    83.25% {
+      -webkit-transform: translateX(1px);
+      transform: translateX(1px);
+    }
+    100% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+    }
+  }
+  @keyframes hvr-wobble-horizontal {
+    16.65% {
+      -webkit-transform: translateX(8px);
+      transform: translateX(8px);
+    }
+    33.3% {
+      -webkit-transform: translateX(-6px);
+      transform: translateX(-6px);
+    }
+    49.95% {
+      -webkit-transform: translateX(4px);
+      transform: translateX(4px);
+    }
+    66.6% {
+      -webkit-transform: translateX(-2px);
+      transform: translateX(-2px);
+    }
+    83.25% {
+      -webkit-transform: translateX(1px);
+      transform: translateX(1px);
+    }
+    100% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+    }
+  }
+  .hvr-wobble-horizontal {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  }
+  .hvr-wobble-horizontal:hover, .hvr-wobble-horizontal:focus, .hvr-wobble-horizontal:active {
+    -webkit-animation-name: hvr-wobble-horizontal;
+    animation-name: hvr-wobble-horizontal;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+  }
+
+
+@media only screen and (min-width: 768px) {
+
+    .logo{
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 3px;
+        position: absolute;
+        left: 45%;
+        top: 7%;
+        z-index: 4;
+    } 
+    
+    .menu-open .logo{ 
+        position: absolute;
+        left: 45%;
+        top: 7%;
+        z-index: 4;
+    } 
+    
+    .menu-open .logo:hover{
+        color: #13161B;
+        text-decoration: none;
+    } 
+    
+    .texto-menu{
+        font-size: 60px;
+        margin-bottom: 25px;
+    }
+    
+    .texto-menu:hover{
+        font-size: 60px;
+        margin-bottom: 25px;
+    }
+    
+    .texto-menu2{
+        text-align: right;
+        margin-bottom: 15px;
+        position: absolute;
+        right: 8%;
+        top: 16%;
+        z-index: 3;
+        transition: top 350ms ease-in-out;
+    }
+
+    .hero-dearestrobot{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url(img/robot-hero.png);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    }
+    
+    .wrapper-bienvenida-dearestrobot{
+        max-width: 800px;
+        position: absolute;
+        left: 120px;
+        top: 40%;
+        z-index: 1;
+    }  
+    
+    .Titulo-dearestrobot{
+        margin-bottom: 30px;
+    }
+    
+    .Descripcion-dearestrobot{
+        font-size: 50px;
+    }
+    
+    .contenido-general-1{
+        height: 5500px;
+    }
+
+    .laptop-dearestrobot{
+        width: 790px;
+        height: 560px;
+        margin: 0 auto;
+        position: relative;
+        top: 100px;
+    }
+    
+    .wrapper-contenido{
+        width: 712px;
+        margin: 0 auto 50px auto;
+        position: initial;
+    } 
+
+    .wrapper-elementos{
+        max-width: 100%;
+        position: relative;
+        top: 0%;
+        left: 20%;
+        display: block;
+        margin: 0;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    h4{
+        font-size: 60px;
+    }
+    
+    p{
+        font-size: 30px;
+    }
+    
+    .p2equipo{
+        font-size: 20px;
+        font-weight: 300;
+        color: #6032A0;
+        line-height: 130%;
+        margin-bottom: 0;
+    }
+    
+    .p3{
+        font-size: 18px;
+        font-weight: 300;
+        color: #ffffff;
+        margin-bottom: 35px;
+        line-height: 130%;
+    }
+    
+    .p4{
+        font-size: 15px;
+        font-weight: 300;
+        color: #ffffff;
+        line-height: 130%;
+    }
+    
+    .p5{
+        font-size: 12px;
+        font-weight: 300;
+        color: #ffffff;
+        margin-bottom: 35px;
+        line-height: 130%;
+    }
+
+    .contenido-general-1 h2{
+        color: #6032A0;
+    }
+
+    .contenido-general-1 p{
+        color: #6032A0;
+    }
+
+    .roles{
+        width: 224px;
+        align-items: center;
+    }
+    
+    .iconos-roles{    
+        display: inline-block;
+        height: 60px;
+    }  
+
+    .equipo{
+        width: 224px;
+        display: flex;
+        align-items: center;
+    }
+
+    .fotos-equipo{
+        height: 88px;
+        width: 88px;
+        margin: 15px;
+        border-radius: 100px;
+    }
+
+    .nubes{
+        width: 1446px;
+        height: 353px;
+        position: absolute;
+        top: 550px;
+        left: 0px;
+        z-index: 2;
+        background-image: url(img/nubes.png);
+        background-size: cover;
+        background-position: center;
+    }
+
+    
+@media only screen and (min-width: 1200px) {
+    
+    html, body {
+        overflow-x: visible;
+    }
+
+    a:hover{
+        text-decoration: none;
+    }
+      
+    .texto-menu{
+        font-size: 80px;
+    }
+
+    .texto-menu:hover{
+        font-size: 80px;
+    }
+     
+    .texto-menu2{
+        text-align: right;
+        margin-bottom: 15px;
+        position: absolute;
+        right: 8%;
+        top: 16%;
+        z-index: 4;
+        transition: top 350ms ease-in-out;
+    }
+    
+    .menu-open .texto-menu2{ 
+        display: block; 
+    }
+
+    .menu-open .logo{ 
+        position: absolute;
+        left: 46.5%;
+        top: 7%;
+        z-index: 4;
+    } 
+    
+    .email-link{ 
+        font-size: 14px;
+        font-weight: 500;
+        color: #13161B;
+        text-align: right;
+    }
+    
+    .email-link:hover{ 
+        font-size: 14px;
+        font-weight: 500;
+        color: #13161B;
+        text-align: right;
+        text-decoration: underline;
+    }
+    
+    .logo{
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        position: absolute;
+        left: 46.7%;
+        top: 7%;
+        z-index: 4;
+    } 
+    
+    .logo:hover{
+        color: #8438EC;
+        text-decoration: none;
+    } 
+
+    .menu-open .logo:hover{
+        color: #13161B;
+        text-decoration: none;
+    } 
+    
+    .hero-dearestrobot{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url(img/maglari2.png);
+        background-size: cover;
+        position: relative;
+    }
+    
+    .wrapper-bienvenida-dearestrobot{
+        max-width: 800px;
+        position: absolute;
+        left: 150px;
+        top: 35%;
+        z-index: 1;
+    }  
+    
+    .Titulo-dearestrobot{
+        margin-bottom: 30px;
+    }
+    
+    .Descripcion-dearestrobot{
+        font-size: 50px;
+    }
+    
+    .contenido-general-1{
+        height: 5500px;
+    }
+
+    .laptop-dearestrobot{
+        width: 990px;
+        height: 706px;
+        margin: 0 auto;
+    }
+
+    .wrapper-imagenes{
+        width: 990px;
+        margin: 0 auto 50px auto;
+        position: initial;
+    } 
+
+    .wrapper-contenido{
+        width: 712px;
+        margin: 0 auto 50px auto;
+        position: initial;
+    } 
+
+    .wrapper-elementos{
+        max-width: 764px;
+        position: relative;
+        top: 0%;
+        left: 2%;
+        display: flex;
+    }
+
+}
+
+ 
+@media only screen and (min-width: 1200px) {
+    
+    html, body {
+        overflow-x: visible;
+    }
+
+    a:hover{
+        text-decoration: none;
+    }
+      
+    .texto-menu{
+        font-size: 80px;
+    }
+
+    .texto-menu:hover{
+        font-size: 80px;
+    }
+     
+    .texto-menu2{
+        text-align: right;
+        margin-bottom: 15px;
+        position: absolute;
+        right: 8%;
+        top: 16%;
+        z-index: 3;
+        transition: top 350ms ease-in-out;
+    }
+    
+    .menu-open .texto-menu2{ 
+        display: block; 
+    }
+
+    .menu-open .logo{ 
+        position: absolute;
+        left: 46.5%;
+        top: 7%;
+        z-index: 4;
+    } 
+    
+    .email-link{ 
+        font-size: 14px;
+        font-weight: 500;
+        color: #13161B;
+        text-align: right;
+    }
+    
+    .email-link:hover{ 
+        font-size: 14px;
+        font-weight: 500;
+        color: #13161B;
+        text-align: right;
+        text-decoration: underline;
+    }
+    
+    .logo{
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        position: absolute;
+        left: 46.7%;
+        top: 7%;
+        z-index: 4;
+    } 
+    
+    .logo:hover{
+        color: #8438EC;
+        text-decoration: none;
+    } 
+
+    .menu-open .logo:hover{
+        color: #13161B;
+        text-decoration: none;
+    } 
+    
+    .hero-dearestrobot{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url(img/robot-hero.png);
+        background-size: cover;
+        position: relative;
+    }
+    
+    .wrapper-bienvenida-dearestrobot{
+        max-width: 800px;
+        position: absolute;
+        left: 150px;
+        top: 35%;
+        z-index: 1;
+    }  
+    
+    .Titulo-dearestrobot{
+        margin-bottom: 30px;
+    }
+    
+    .Descripcion-dearestrobot{
+        font-size: 50px;
+    }
+    
+    .contenido-general-1{
+        height: 5500px;
+    }
+
+    .wrapper-contenido{
+        width: 712px;
+        margin: 0 auto 50px auto;
+        position: initial;
+    } 
+
+    .wrapper-elementos{
+        max-width: 764px;
+        position: relative;
+        top: 0%;
+        left: 2%;
+        display: flex;
+    }
+    
+    h2{
+        font-size: 20px;
+    }
+
+    h4{
+        font-size: 60px;
+    }
+    
+    p{
+        font-size: 30px;
+    }
+
+}
+
+
+@media only screen and (min-width: 1600px) {
+
+    .wrapper-bienvenida-dearestrobot{
+        max-width: 800px;
+        position: absolute;
+        left: 200px;
+        top: 35%;
+        z-index: 1;
+    }  
+
+    .Titulo-dearestrobot{
+        font-size: 30px;
+    }
+    
+    .Descripcion-dearestrobot{
+        font-size: 70px;
+    }
+
+    .Linea-dearestrobot{
+        left: 0px;
+        top: 5px;
+        z-index: 3;
+    }
+
+    .logo{
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 3px;
+        position: absolute;
+        left: 47%;
+        top: 7%;
+        z-index: 4;
+    } 
+
+    .mouse{
+        width: 33px;
+        height: 48px;
+    }
+    
+    .menu{
+        height: 23px;
+        width: 23px;
+    }    
+    
+    .equis{
+        display: none;
+        height: 23px;
+        width: 23px;
+    }
+    
+    .menu-open .logo{ 
+        font-size: 20px;
+        left: 47%;
+        top: 7%;
+    } 
+    
+    .texto-menu{
+        font-size: 100px;
+        margin-bottom: 0px;
+    }
+    
+    .texto-menu:hover{
+        font-size: 100px;
+        margin-bottom: 0px;
+    }
+    
+    .texto-menu2{
+        font-size: 18px;
+        right: 8%;
+        top: 16%;
+    }
+    
+    .email-link{ 
+        font-size: 18px;
+    }
+    
+    .email-link:hover{ 
+        font-size: 18px;
+    }
+
+
+    .marca{
+        font-size: 30px;
+    }
+    
+    .titulo-proyecto{
+        font-size: 70px;
+        font-weight: 600;
+        line-height: 100%;
+    }
+    
+    .ver-proyecto{
+        font-size: 20px;
+        font-weight: 300;
+    }
+    
+    .mockup-proyecto{
+        width: 560px;
+        height: 407px;
+        position: absolute;
+        right: 300px;
+        top: 55%;
+        z-index: 1;
+        display: block;
+    }
+    
+    .flecha-ver-proyecto{
+        width: 21px;
+        height: 15px;
+        position: absolute;
+        left: 125px;
+        top: 93%;
+    }
+
+} 
+    
 }
