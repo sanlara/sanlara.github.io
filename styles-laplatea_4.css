@@ -183,7 +183,6 @@ p{
     line-height: 130%;
 }
 
-
 .p2{
     font-size: 20px;
     font-weight: 300;
@@ -265,7 +264,7 @@ p{
 
 .contenido-general-1{
     background: #FEC6D9;
-    height: 6800px;
+    height: 3000px;
     width: 100%;
     position: relative;
     z-index: 1;
@@ -286,6 +285,36 @@ p{
     margin: 0 auto 100px auto;
     position: relative;
     top: 50px;
+    text-align: center;
+}
+
+.ux-dearestrobot{
+    width: 349px;
+    height: 320px;
+    margin: 0 auto 30px auto;
+    position: relative;
+    top: 10px;
+    left: -7%;
+    text-align: center;
+}
+
+.colores-dearestrobot{
+    width: 349px;
+    height: 208px;
+    margin: 0 auto 30px auto;
+    position: relative;
+    top: 10px;
+    left: -7%;
+    text-align: center;
+}
+
+.ui-dearestrobot{
+    width: 349px;
+    height: 848px;
+    margin: 0 auto 30px auto;
+    position: relative;
+    top: 10px;
+    left: -7%;
     text-align: center;
 }
 
@@ -324,6 +353,119 @@ p{
     background-position: center;
 }
 
+
+.LaPlatea{
+    background: url(img/petitprincep.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.degrade::before {
+    content: '';
+    display: block;
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+.LaPlatea::before {
+    background:  linear-gradient(360deg, #5801C7 0.57%, rgba(76, 1, 171, 0.5) 30.43%, rgba(66, 1, 149, 0) 54.42%);
+}
+
+.wrapper {
+    max-width: 90%;
+    position: absolute;
+    left: 8%;
+    top: 65%;
+    z-index: 1;
+} 
+
+.marca{
+    font-size: 20px;
+    font-weight: 300;
+    position: relative;
+    left: 0;
+    top: 4px;
+    z-index: 2;
+    color: #FFE1AE;
+}
+
+.marca::before {
+    background: currentColor;
+    content: '';
+    display: inline-block;
+    height: 2px;
+    width: 60px;
+    margin: 0 .5em 0 0;
+    vertical-align: middle;
+}
+
+.titulo-proyecto{
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 100%;
+    color: #ffffff;
+}
+
+.ver-proyecto{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.mockup-proyecto{
+    width: 450px;
+    height: 317px;
+    position: absolute;
+    right: 165px;
+    top: 50%;
+    z-index: 1;
+    display: none;
+}
+
+.flecha-ver-proyecto{
+    width: 19px;
+    height: 13px;
+    position: absolute;
+    left: 32%;
+    top: 88%;
+    z-index: 3;
+    animation: slide1 1.5s ease-in-out infinite;
+    margin-left: 25px;
+    fill: #ffffff;
+}
+
+@keyframes slide1 {
+    0%,
+    100% {
+      transform: translate(0, 0);
+    }
+  
+    50% {
+      transform: translate(10px, 0);
+    }
+  }
+
+
+.sgt-proyecto {
+    background: #FAAB2A;
+    height: 75px;
+    width: 100%;
+    position: relative;
+    padding: 10px;
+}
+
+.sgt-proyecto-texto{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+}
 
 /* Wobble Horizontal */
 @-webkit-keyframes hvr-wobble-horizontal {
@@ -473,7 +615,7 @@ p{
     }
     
     .contenido-general-1{
-        height: 5500px;
+        height: 6000px;
     }
 
     .laptop-dearestrobot{
@@ -482,6 +624,33 @@ p{
         margin: 0 auto;
         position: relative;
         top: 100px;
+    }
+
+    .ux-dearestrobot{
+        width: 790px;
+        height: 560px;
+        margin: 0 auto;
+        position: relative;
+        top: 10px;
+        left: -37%;
+    }
+
+    .colores-dearestrobot{
+        width: 790px;
+        height: 560px;
+        margin: 0 auto;
+        position: relative;
+        top: 10px;
+        left: -5%;
+    }
+
+    .ui-dearestrobot{
+        width: 790px;
+        height: 560px;
+        margin: 0 auto;
+        position: relative;
+        top: 10px;
+        left: -30%;
     }
     
     .wrapper-contenido{
@@ -571,6 +740,47 @@ p{
         background-size: cover;
         background-position: center;
     }
+
+    .wrapper {
+        max-width: 500px;
+        position: absolute;
+        left: 120px;
+        top: 58%;
+    } 
+    
+    .marca{
+        font-size: 22px;
+        color: #FFE1AE;
+    }
+    
+    .titulo-proyecto{
+        font-size: 50px;
+        font-weight: 600;
+        line-height: 100%;
+    }
+    
+    .ver-proyecto{
+        font-size: 16px;
+        font-weight: 300;
+    }
+    
+    .flecha-ver-proyecto{
+        width: 21px;
+        height: 15x;
+        position: absolute;
+        left: 100px;
+        top: 89%;
+    }
+
+    .sgt-proyecto {
+        padding: 15px;
+    }
+    
+    .sgt-proyecto-texto{
+        font-size: 30px;
+    }
+
+}
 
     
 @media only screen and (min-width: 1200px) {
@@ -675,14 +885,28 @@ p{
     .Descripcion-dearestrobot{
         font-size: 50px;
     }
-    
-    .contenido-general-1{
-        height: 5500px;
-    }
 
     .laptop-dearestrobot{
         width: 990px;
         height: 706px;
+        margin: 0 auto;
+    }
+
+    .ux-dearestrobot{
+        width: 1240px;
+        height: 1126px;
+        margin: 0 auto;
+    }
+
+    .colores-dearestrobot{
+        width: 763px;
+        height: 405px;
+        margin: 0 auto;
+    }
+
+    .ui-dearestrobot{
+        width: 1119px;
+        height: 2859px;
         margin: 0 auto;
     }
 
@@ -705,6 +929,8 @@ p{
         left: 2%;
         display: flex;
     }
+
+
 
 }
 
@@ -813,7 +1039,7 @@ p{
     }
     
     .contenido-general-1{
-        height: 5500px;
+        height: 6200px;
     }
 
     .wrapper-contenido{
@@ -841,6 +1067,49 @@ p{
     p{
         font-size: 30px;
     }
+
+
+.wrapper {
+    max-width: 800px;
+    position: relative;
+    left: 180px;
+    top: 50%;
+} 
+
+.marca{
+    font-size: 22px;
+}
+
+.titulo-proyecto{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+.ver-proyecto{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.mockup-proyecto{
+    display: block;
+}
+
+.flecha-ver-proyecto{
+    width: 21px;
+    height: 15px;
+    position: absolute;
+    left: 100px;
+    top: 92%;
+}
+
+.sgt-proyecto {
+    padding: 15px;
+}
+
+.sgt-proyecto-texto{
+    font-size: 30px;
+}
 
 }
 
@@ -964,4 +1233,3 @@ p{
 
 } 
     
-}
