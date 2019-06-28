@@ -421,7 +421,7 @@ p{
     height: 317px;
     position: absolute;
     right: 165px;
-    top: 50%;
+    top: 55%;
     z-index: 1;
     display: none;
 }
@@ -766,7 +766,7 @@ p{
     
     .flecha-ver-proyecto{
         width: 21px;
-        height: 15x;
+        height: 15px;
         position: absolute;
         left: 100px;
         top: 89%;
@@ -1099,8 +1099,8 @@ p{
     width: 21px;
     height: 15px;
     position: absolute;
-    left: 100px;
-    top: 92%;
+    left: 83px;
+    top: 93%;
 }
 
 .sgt-proyecto {
