@@ -196,12 +196,19 @@ p{
     margin: 0.6em;
 }
 
-.p2equipo{
-    font-size: 16px;
+.p4{
+    font-size: 15px;
     font-weight: 300;
-    color: #8438EC;
+    color: #ffffff;
     line-height: 130%;
-    margin-bottom: 0;
+}
+
+.contenido-general-1 h2{
+    color: #6032A0;
+}
+
+.contenido-general-1 p{
+    color: #6032A0;
 }
 
 .hero-dearestrobot{
@@ -220,25 +227,23 @@ p{
     max-width: 80%;
     position: absolute;
     left: 10%;
-    top: 60%;
+    top: 64%;
     z-index: 1;
 }  
 
 .Titulo-dearestrobot{
-    font-family: poppins;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 300;
     color: #FFD794;
     position: relative;
     left: 75px;
-    top: 4px;
+    top: 10px;
     z-index: 1;
     margin-bottom: 20px;
 }
 
 .Descripcion-dearestrobot{
-    font-family: poppins;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 600;
     color: #ffffff;
     line-height: 100%;
@@ -297,15 +302,24 @@ p{
     margin: 0.6em;
 }  
 
+.wrapper-elementos{
+    max-width: 100%;
+    position: relative;
+    top: 0%;
+    left: 20%;
+    display: block;
+    margin: 0;
+}
+
 .nubes{
     object-fit: cover;
-    width: 1456px;
-    height: 363px;
+    width: 456px;
+    height: 119px;
     position: relative;
-    top: 0px;
+    top: 44%;
     left: 0px;
     z-index: 2;
-    background-image: url(img/nubes.png);
+    background-image: url(img/nubes-mobile.png);
     background-size: cover;
     background-position: center;
 }
@@ -545,19 +559,6 @@ p{
         display: inline-block;
         height: 60px;
     }  
-
-    .equipo{
-        width: 224px;
-        display: flex;
-        align-items: center;
-    }
-
-    .fotos-equipo{
-        height: 88px;
-        width: 88px;
-        margin: 15px;
-        border-radius: 100px;
-    }
 
     .nubes{
         width: 1446px;
