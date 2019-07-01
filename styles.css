@@ -256,7 +256,7 @@ a:hover{
 }  
 
 .titulo-principal{
-    font-size: 40px;
+    font-size: 42px;
     font-weight: 800;
     color: #FAAB2A;
     text-align: center;
@@ -268,7 +268,7 @@ a:hover{
 } 
 
 .descripcion-ric{
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 300;
     color: #ffffff;
     text-align: center;
@@ -442,7 +442,7 @@ footer{
 }
 
 .footer-email2{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 300;
     padding-bottom: 5px;
     position: relative;
