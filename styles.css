@@ -462,7 +462,7 @@ footer{
 
 .footer-funfact{
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 300;
     position: relative;
     line-height: 1.5;
     margin-top: 17px;
@@ -508,7 +508,7 @@ li{
 
 .footer-end{
     font-size: 13px;
-    font-weight: 400;
+    font-weight: 300;
     position: relative;
     align-items: center;
     line-height: 1.5;
