@@ -4,6 +4,7 @@ html, body {
     margin: 0;
     font-family:'Poppins', sans-serif;
     background: #8438EC;
+    max-width: 100%;
     overflow-x: hidden;
 }
 
@@ -730,7 +731,7 @@ p{
     }  
 
     .nubes{
-        width: 1446px;
+        width: 100%;
         height: 353px;
         position: absolute;
         top: 60%;
