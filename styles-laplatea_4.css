@@ -1234,9 +1234,9 @@ p{
 
     .nubes{
         width: 100%;
-        height: 353px;
+        height: 480px;
         position: absolute;
-        top: 60%;
+        top: 66%;
         left: 0px;
         z-index: 2;
         background-image: url(img/nubes.png);
